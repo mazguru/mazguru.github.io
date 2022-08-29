@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kebijakan Privasi untuk Sinau Matematika on Sinau Matematika</title>
-    <link>https://www.sinmat.my.id/privacy-police/</link>
+    <link>https://mazguru.github.io/privacy-police/</link>
     <description>Recent content in Kebijakan Privasi untuk Sinau Matematika on Sinau Matematika</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>© {year} | Sinau Matematika</copyright><atom:link href="https://www.sinmat.my.id/privacy-police/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© {year} | Sinau Matematika</copyright><atom:link href="https://mazguru.github.io/privacy-police/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

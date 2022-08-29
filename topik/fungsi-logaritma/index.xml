@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fungsi Logaritma on Sinau Matematika</title>
-    <link>https://www.sinmat.my.id/topik/fungsi-logaritma/</link>
+    <link>https://mazguru.github.io/topik/fungsi-logaritma/</link>
     <description>Recent content in Fungsi Logaritma on Sinau Matematika</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© {year} | Sinau Matematika</copyright>
-    <lastBuildDate>Tue, 16 Nov 2021 18:54:36 +0700</lastBuildDate><atom:link href="https://www.sinmat.my.id/topik/fungsi-logaritma/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Nov 2021 18:54:36 +0700</lastBuildDate><atom:link href="https://mazguru.github.io/topik/fungsi-logaritma/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fungsi Logaritma</title>
-      <link>https://www.sinmat.my.id/fungsi-logaritma/</link>
+      <link>https://mazguru.github.io/fungsi-logaritma/</link>
       <pubDate>Tue, 16 Nov 2021 18:54:36 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/fungsi-logaritma/</guid>
+      <guid>https://mazguru.github.io/fungsi-logaritma/</guid>
       <description>Fungsi logaritma adalah suatu fungsi yang memuat bentuk logaritma didalamnya. Sebelumnya kita telah belajar tentang fungsi eksponen yaitu fungsi yang berkorespondensi satu-satu, sehingga fungsi eksponen mempunyai invers. Invers dari fungsi eksponen inilah yang dinamakan fungsi logaritma.
 Dari fungsi $f : x \rightarrow a^x$ yang mempunyai domain bilangan real dan range bilangan real positif. Fungsi tersebut bijektif dari $R$ ke $R^+$ sehingga mempunyai invers $f^{-1} : R^+\rightarrow R$ yaitu setiap $x\in R$ mempunyai peta tunggal $y\in R^+$ dan sebaliknya $y\in R^+$ mempunyai peta tunggal $x\in R$.</description>
     </item>
     
     <item>
       <title>Sifat-sifat Operasi Logaritma</title>
-      <link>https://www.sinmat.my.id/sifat-sifat-operasi-logaritma/</link>
+      <link>https://mazguru.github.io/sifat-sifat-operasi-logaritma/</link>
       <pubDate>Tue, 16 Nov 2021 18:54:09 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/sifat-sifat-operasi-logaritma/</guid>
+      <guid>https://mazguru.github.io/sifat-sifat-operasi-logaritma/</guid>
       <description>Ada 7 sifat pada logaritma ini yang akan membantu kamu dalam memecahkan masalah yang berkaitan dengan logaritma yaitu :
 Penjumlahan dan Pengurangan Sifat 1 $$^a\log x &amp;#43; ^a\log y = ^a\log xy$$Contoh :
 Sederhanakanlah !
@@ -32,10 +32,10 @@ $^2\log 4 + ^2\log 8 = ^2\log 4 . 8 = ^2\log 32 = 5$ $^3\log \frac{1}{9} + ^3\lo
     
     <item>
       <title>Pengertian Logaritma</title>
-      <link>https://www.sinmat.my.id/pengertian-logaritma/</link>
+      <link>https://mazguru.github.io/pengertian-logaritma/</link>
       <pubDate>Tue, 16 Nov 2021 18:50:18 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/pengertian-logaritma/</guid>
+      <guid>https://mazguru.github.io/pengertian-logaritma/</guid>
       <description>Setelah kemaren belajar tentang fungsi eksponen kali ini kita akan melanjutkan materi tentang logaritma. Apa itu logaritma? Perhatikan masalah berikut!
 Waktu paruh sebuah unsur radioaktif adalah 2 hari. Berapa lama diperlukan oleh 64 g unsur ini untuk meluruh menjadi tinggal 2 g?
 Dari permasalahan diatas dapat diselesaikan seperti berikut
@@ -49,10 +49,10 @@ Perhatikan penyelesaian pada baris ke-4 dan ke-5.</description>
     
     <item>
       <title>Persamaan Eksponen Lanjut</title>
-      <link>https://www.sinmat.my.id/persamaan-eksponen-lanjut/</link>
+      <link>https://mazguru.github.io/persamaan-eksponen-lanjut/</link>
       <pubDate>Tue, 31 Aug 2021 20:07:26 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/persamaan-eksponen-lanjut/</guid>
+      <guid>https://mazguru.github.io/persamaan-eksponen-lanjut/</guid>
       <description>Persamaan eksponen lanjut. Persamaan Bentuk ${{a}^{f(x)}}={{b}^{f(x)}}$ Penyelesaian persamaan berbentuk ${{a}^{f(x)}}={{b}^{f(x)}}$ mengikuti aturan berikut : Jika $${{a}^{f(x)}}={{b}^{f(x)}}$$ dimana a &amp;gt; 0 ,b &amp;gt; 0 dan a ≠ 1, b ≠ 1, maka $$f(x)=0$$Contoh
 Tentukan himpunan penyelesaian dari
 ${{6}^{{{x}^{2}}-5x+6}}={{7}^{{{x}^{2}}-5x+6}}$ ${{7}^{8}}{{.3}^{{{x}^{2}}-8}}={{3}^{2x}}{{.7}^{{{x}^{2}}-2x}}$ Alternatif Penyelesaian
@@ -70,20 +70,20 @@ Jadi himpunan penyelesaiannya adalah {-2, 4}</description>
     
     <item>
       <title>Persamaan Eksponen Sederhana</title>
-      <link>https://www.sinmat.my.id/persamaan-eksponen-sederhana/</link>
+      <link>https://mazguru.github.io/persamaan-eksponen-sederhana/</link>
       <pubDate>Tue, 31 Aug 2021 20:01:26 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/persamaan-eksponen-sederhana/</guid>
+      <guid>https://mazguru.github.io/persamaan-eksponen-sederhana/</guid>
       <description>Setelah kita mempelajari tentang fungsi eksponen, sekarang pembahasan akan diperluas tentang persamaan eksponen dan pertidaksamaan eksponen. Persamaan eksponen adalah persamaan yang eksponennya (pangkatnya) memuat perubah x atau persamaan yang bilangan pokoknya memuat perubah x. Persamaan eksponen itu sendiri ada dua bentuk, yaitu persamaan eksponen sederhana dan persamaan eksponen lanjut.
 Persamaan eksponen sederhana maksudnya persamaan yang hanya menyamakan nilai basisnya dan langsung bisa menentukan penyelesaiannya. Dari berbagai bentuk persamaan eksponen yang ada, cara penyelesaiannya bergantung pada bentuknya.</description>
     </item>
     
     <item>
       <title>Grafik Fungsi Eksponen</title>
-      <link>https://www.sinmat.my.id/grafik-fungsi-eksponen/</link>
+      <link>https://mazguru.github.io/grafik-fungsi-eksponen/</link>
       <pubDate>Tue, 31 Aug 2021 17:01:26 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/grafik-fungsi-eksponen/</guid>
+      <guid>https://mazguru.github.io/grafik-fungsi-eksponen/</guid>
       <description>Grafik Fungsi Eksponen Menggambar sketsa grafik fungsi eksponen dapat dilakukan dengan langkah-langkah berikut
 Menentukan titik-titik bantu dengan membuat daftar atau tabel yang menunjukkan hubungan antara nilai-nilai x dengan nilai-nilai $y=f(x)=k.{{a}^{x}}$ . Titik-titik dengan koordinat (x, y) yang diperoleh digambarkan pada bidang kartesius, kemudian dihubungkan dengan kurva mulus, sehingga diperoleh grafik fungsi eksponen $y=f(x)=k.{{a}^{x}}$ Untuk lebih jelasnya, perhatikan contoh berikut.
 Contoh 1 Lukislah grafik fungsi $f(x)={{2}^{x}}$ untuk x bilangan real
@@ -92,10 +92,10 @@ penyelesaian</description>
     
     <item>
       <title>Pengertian Fungsi Eksponen</title>
-      <link>https://www.sinmat.my.id/pengertian-fungsi-eksponen/</link>
+      <link>https://mazguru.github.io/pengertian-fungsi-eksponen/</link>
       <pubDate>Thu, 26 Aug 2021 14:07:38 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/pengertian-fungsi-eksponen/</guid>
+      <guid>https://mazguru.github.io/pengertian-fungsi-eksponen/</guid>
       <description>Apa itu fungsi eksponen?
 Fungsi eksponensial adalah fungsi matematika, yang digunakan dalam banyak situasi dunia nyata. Hal ini terutama digunakan untuk menemukan peluruhan eksponensial atau pertumbuhan eksponensial atau untuk menghitung investasi, populasi model dan sebagainya. Untuk memahami fungsi eksponen, coba Kalian perhatikan masalah berikut.
 Dalam suatu tangki air mula-mula berisi 8 bakteri. Setiap Bakteri dapat membelah diri setiap 24 jam atau sehari. Bagaimanakah menuliskan banyak banyak bakteri tersebut setelah beberapa hari dalam bahasa yang sederhana?</description>
@@ -103,19 +103,19 @@ Dalam suatu tangki air mula-mula berisi 8 bakteri. Setiap Bakteri dapat membelah
     
     <item>
       <title>Konsep Dasar Eksponen dan Sifat-sifatnya</title>
-      <link>https://www.sinmat.my.id/konsep-dasar-eksponen-dan-sifat-sifatnya/</link>
+      <link>https://mazguru.github.io/konsep-dasar-eksponen-dan-sifat-sifatnya/</link>
       <pubDate>Fri, 30 Jul 2021 22:59:13 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/konsep-dasar-eksponen-dan-sifat-sifatnya/</guid>
+      <guid>https://mazguru.github.io/konsep-dasar-eksponen-dan-sifat-sifatnya/</guid>
       <description>Apa itu Eksponen? Pada tulisan ini kita akan membahas tentang eksponen dan sifat-sifatnya. Konsep eksponen ini Sudah dipelajari di jenjang SMP materi ini adalah materi prasyarat untuk kalian belajar fungsi eksponen di kelas 10 jenjang SMA. Eksponen banyak digunakan oleh para peneliti untuk memudahkan menulis angka. Misalkan jarak dari bumi ke bulan itu kan jauh sekali ya, panjang sekali. Nah itu, biasanya dituliskan dalam bentuk eksponen. Apa itu eksponen dan bagaimana sifat-sifatnya berikut ulasannya.</description>
     </item>
     
     <item>
       <title>Pendahuluan Fungsi Eksponen dan Logaritma</title>
-      <link>https://www.sinmat.my.id/pendahuluan-fungsi-eksponen-dan-logaritma/</link>
+      <link>https://mazguru.github.io/pendahuluan-fungsi-eksponen-dan-logaritma/</link>
       <pubDate>Wed, 28 Jul 2021 22:34:56 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/pendahuluan-fungsi-eksponen-dan-logaritma/</guid>
+      <guid>https://mazguru.github.io/pendahuluan-fungsi-eksponen-dan-logaritma/</guid>
       <description>Fungsi eksponensial banyak digunakan dalam kehidupan sehari-hari. Contohnya adalah suku bunga, pertumbuhan, peluruhan, dan masalah perkembangbiakan bakteri dan juga virus. Seperti virus covid-19 yang saat ini sedang menjangkit negara kita. Banyak yang memberitakan bahwa covid-19 ini tumbuh secara eksponensial seperti berita berikut ini:
 https://kumparan.com/melysantoso/mencoba-memahami-mengapa-infeksi-covid-19-bergerak-secara-eksponensial-1tB2orKcWyr↝Simulasi juga dilakukan oleh peneliti dari alumni jurusan matematika UI. Jumlah orang-orang yang tertular jika pemerintah tidak melakukan intervensi dalam meminimalisir interaksi antar manusia akan tampak seperti grafik fungsi eksponen berikut: Bahaya Covid-19 jika kita mengabaikan Social Distancing dapat dijelaskan dengan fungsi ekponen seperti pada video ini: Oleh karena itu mari kita jaga diri untuk menghadapi kehidupan saat ini.</description>
     </item>

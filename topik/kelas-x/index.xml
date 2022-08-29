@@ -2,95 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>kelas X on Sinau Matematika</title>
-    <link>https://www.sinmat.my.id/topik/kelas-x/</link>
+    <link>https://mazguru.github.io/topik/kelas-x/</link>
     <description>Recent content in kelas X on Sinau Matematika</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© {year} | Sinau Matematika</copyright>
-    <lastBuildDate>Mon, 25 Apr 2022 19:46:51 +0700</lastBuildDate><atom:link href="https://www.sinmat.my.id/topik/kelas-x/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Apr 2022 19:46:51 +0700</lastBuildDate><atom:link href="https://mazguru.github.io/topik/kelas-x/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Proyeksi Ortogonal Vektor</title>
-      <link>https://www.sinmat.my.id/proyeksi-ortogonal-vektor/</link>
+      <link>https://mazguru.github.io/proyeksi-ortogonal-vektor/</link>
       <pubDate>Mon, 25 Apr 2022 19:46:51 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/proyeksi-ortogonal-vektor/</guid>
+      <guid>https://mazguru.github.io/proyeksi-ortogonal-vektor/</guid>
       <description>Pada artikel kali ini kita akan membahas proyeksi vektor khususnya proyeksi vektor secara ortogonal (tegak lurus). Proyeksi orthogonal suatu vektor ke vektor yang lain, hasilnya berupa vektor. Sedangkan panjang proyeksi vektor orthogonal suatu vektor pada vektor yang lain selalu bernilai bilangan/skalar real positif. Proyeksi orthogonal vektor $\vec{u}$ pada vektor $\vec{v}$ dapat dinotasikan oleh ${\vec{u}}_{\vec{v}}$ atau $\vec{p}$ dan ditentukan oleh dalil berikut.
 Dalil : Proyeksi skalar orthogonal $\vec{u}$ pada $\vec{v}$ adalah $$\left| \left| \vec{p}\right| \right|=\frac{\vec{u}\cdot\vec{v}}{\left| \vec{v}\right|}$$ Proyeksi vektor $\vec{u}$ ke vektor $\vec{v}$ adalah vektor $${\vec{u}}_{\vec{v}}=\left( \frac{\vec{u} \cdot \vec{v}}{\left| \vec{v} \right|^2} \right)\vec{v}\text{ atau } \vec{p}=\frac{\vec{u}}{\left| \vec{v} \right|} \left| \left| \vec{p} \right| \right|$$ Panjang proyeksi vektor $\vec{u}$ ke vektor $\vec{v}$ adalah $$ \lvert \vec{u}_{\vec{v}}\rvert=\left| \vec{u}\cdot e_{\vec{v}} \right| $$ dengan $e_{\vec{v}}$ adalah vektor satuan ke arah $\vec{v}$ atau $\left| \vec{u}_{\vec{v}} \right|=\left| \frac{\vec{u}.</description>
     </item>
     
     <item>
       <title>Penerapan Vektor dalam Kehidupan</title>
-      <link>https://www.sinmat.my.id/penerapan-vektor-dalam-kehidupan/</link>
+      <link>https://mazguru.github.io/penerapan-vektor-dalam-kehidupan/</link>
       <pubDate>Fri, 15 Apr 2022 03:02:30 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/penerapan-vektor-dalam-kehidupan/</guid>
+      <guid>https://mazguru.github.io/penerapan-vektor-dalam-kehidupan/</guid>
       <description>Pada artikel kali ini kita akan membahas beberapa penerapan vektor yaitu Resultan Vektor, Vektor Normal, Proyeksi Ortogonal Vektor, Jarak titik ke garis, dan Luas dan Volume.
 1.	Resultan Dua Buah Vektor Perhatikan gambar di samping berikut. Diberikan dua buah vektor yaitu vektor $\vec{a}$ dan $\vec{b}$ serta sudut yang dibentuk oleh vektor $\vec{b}$ terhadap vektor $\vec{a}$ yaitu sebesar $\alpha $. Resultan dari vektor $\vec{a}$ dan $\vec{b}$ sama dengan mencari panjang OC.</description>
     </item>
     
     <item>
       <title>Perkalian Cross Vektor (Perkalian Silang)</title>
-      <link>https://www.sinmat.my.id/perkalian-cross-vektor-perkalian-silang/</link>
+      <link>https://mazguru.github.io/perkalian-cross-vektor-perkalian-silang/</link>
       <pubDate>Wed, 13 Apr 2022 23:31:26 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/perkalian-cross-vektor-perkalian-silang/</guid>
+      <guid>https://mazguru.github.io/perkalian-cross-vektor-perkalian-silang/</guid>
       <description>Suatu hal yang hanya berlaku untuk ruang vektor berdimensi tiga R3 adalah cross vektor (perkalian vektor antara 2 vektor), yakni perkalian antara 2 vektor yang menghasilkan vektor tunggal.
 Cross product atau hasil kali silang merupakan hasil kali antara dua vektor di ruang dimensi tiga (R3) yang menghasilkan vektor tegak lurus terhadap kedua vektor yang dikalikan. Atau dapat juga dikatakan bahwa perkalian silang antara dua vektor akan menghasilkan vektor baru yang arahnya tegak lurus dengan masing-masing vektor.</description>
     </item>
     
     <item>
       <title>Perkalian Titik (Dot Product)-Perkalian Skalar Dua Vektor</title>
-      <link>https://www.sinmat.my.id/perkalian-titik-dot-product-perkalian-skalar-dua-vektor/</link>
+      <link>https://mazguru.github.io/perkalian-titik-dot-product-perkalian-skalar-dua-vektor/</link>
       <pubDate>Fri, 28 Jan 2022 15:35:32 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/perkalian-titik-dot-product-perkalian-skalar-dua-vektor/</guid>
+      <guid>https://mazguru.github.io/perkalian-titik-dot-product-perkalian-skalar-dua-vektor/</guid>
       <description>Pada artikel ini kita akan belajar tentang operasi pada vektor yaitu perkalian vektor atau dot product atau perkalian titik. Setelah sebelumnya kita belajar operasi pada vektor yaitu penjumlahan dan pengurangan pada vektor↝dan perkalian vektor dengan skalar↝, maka kali ini kita lanjutkan dengan pembahasan Perkalian Dot Vektor (Dot Product). Vektor dapat kita sajikan dalam bentuk aljabar dan bentuk geometri dimana dua vektor akan membentuk besar sudut tertentu. Nah, sudut antar dua vektor tersebut bisa kita hitung salah satunya dengan menerapkan konsep Perkalian Dot Vektor.</description>
     </item>
     
     <item>
       <title>Perbandingan Vektor Pada Ruas garis</title>
-      <link>https://www.sinmat.my.id/perbandingan-vektor-pada-ruas-garis/</link>
+      <link>https://mazguru.github.io/perbandingan-vektor-pada-ruas-garis/</link>
       <pubDate>Wed, 26 Jan 2022 19:17:11 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/perbandingan-vektor-pada-ruas-garis/</guid>
+      <guid>https://mazguru.github.io/perbandingan-vektor-pada-ruas-garis/</guid>
       <description>Pada artikel ini kita akan belajar tentang Perbandingan Vektor pada Ruas Garis. Perbandingan vektor ini sebenarnya sama dengan perkalian skalar dengan vektor yang sudah kita pelajari pada artikel Tafsiran Geometri Dari Kedudukan Dua Vektor Atau Lebih↝. Kali ini kita akan belajar lebih mendalam terkait dengan koordinat titik pembaginya.
 Ada tiga hal yang akan kita pelajari pada materi Perbandingan Vektor yaitu bisa menentukan pembagian ruas garis dengan perbandingan m:n, menentukan rumus pembagian dalam bentuk vektor dan menentukan koordinat titik pembagi pada ruas garis dan vektor.</description>
     </item>
     
     <item>
       <title>Vektor pada Bangun Ruang R3 (ruang dimensi tiga)</title>
-      <link>https://www.sinmat.my.id/vektor-pada-bangun-ruang-r3-ruang-dimensi-tiga/</link>
+      <link>https://mazguru.github.io/vektor-pada-bangun-ruang-r3-ruang-dimensi-tiga/</link>
       <pubDate>Sat, 22 Jan 2022 16:56:15 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/vektor-pada-bangun-ruang-r3-ruang-dimensi-tiga/</guid>
+      <guid>https://mazguru.github.io/vektor-pada-bangun-ruang-r3-ruang-dimensi-tiga/</guid>
       <description>Setelah pada sebelumnya telah mempelajari vektor pada bidang (R2), selanjutnya kita kembangkankan pembahasan kita mengenai vektor pada bangun ruang (R3). Vektor pada bangun ruang (dimensi tiga) adalah vektor yang memiliki 3 buah sumbu yaitu X, Y dan Z yang saling tegak lurus dan perpotongan ketiga sumbunya sebagai pangkal.
 1.	Penulisan Vektor di R3 Vektor pada ruang adalah vektor yang terletak di dalam ruang dimensi 3. Ruang ini dibentuk oleh 3 sumbu yaitu sumbu X, sumbu Y, dan sumbu Z.</description>
     </item>
     
     <item>
       <title>Aljabar Vektor pada Bangun Datar (Ruang Dimensi 2)</title>
-      <link>https://www.sinmat.my.id/aljabar-vektor-pada-bangun-datar-ruang-dimensi-2/</link>
+      <link>https://mazguru.github.io/aljabar-vektor-pada-bangun-datar-ruang-dimensi-2/</link>
       <pubDate>Wed, 19 Jan 2022 12:53:32 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/aljabar-vektor-pada-bangun-datar-ruang-dimensi-2/</guid>
+      <guid>https://mazguru.github.io/aljabar-vektor-pada-bangun-datar-ruang-dimensi-2/</guid>
       <description>Vektor dimensi dua adalah vektor yang mempunyai dua unsur yaitu unsur vertikal (sumbu Y) dan horizontal (sumbu X). Vektor pada bidang datar (dimensi dua) ditandai dengan sumbu X dan sumbu Y, yang saling berpotongan di titik pusat O (0, 0). Secara analitis vektor dimensi dua dapat disajikan menurut unsur-unsurnya yaitu:
 $\vec{\text{a}}=\begin{pmatrix}x \\\\ y \\\\ \end{pmatrix}$ atau $\vec{\text{a}}=\left( x,y \right)$atau kombinasi linear $\vec{\text{a}}=x\widehat{i}&amp;#43;y\widehat{j}$Dengan x adalah unsur mendatar. Apabila $x &amp;gt; 0$ (positif) maka x mempunyai arah ke kanan dan apabila $x &amp;lt; 0$ (negatif) x mempunyai arah ke kiri.</description>
     </item>
     
     <item>
       <title>Tafsiran Geometri dari kedudukan dua vektor atau lebih</title>
-      <link>https://www.sinmat.my.id/tafsiran-geometri-dari-kedudukan-dua-vektor-atau-lebih/</link>
+      <link>https://mazguru.github.io/tafsiran-geometri-dari-kedudukan-dua-vektor-atau-lebih/</link>
       <pubDate>Mon, 10 Jan 2022 19:12:16 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/tafsiran-geometri-dari-kedudukan-dua-vektor-atau-lebih/</guid>
+      <guid>https://mazguru.github.io/tafsiran-geometri-dari-kedudukan-dua-vektor-atau-lebih/</guid>
       <description>1. Vektor segaris (kolinear) Titik P, N, dan Q dikatakan segaris (kolinear) apabila vektor yang dibangun oleh dua titik di antaranya dapat dinyatakan sebagai perkalian vektor dua titik yang lain. Dengan demikian, jika titik-titik P, N dan Q terletak pada satu garis lurus, N dikatakan membagi ruas garis PQ dengan perbandingan k, apabila $\overrightarrow{PN}~=k\text{ }\overrightarrow{NQ}$. Pengertian titik-titik segaris (kolinear) Tiga buah titik P, N, dan Q dikatakan segaris (kolinear) jika dan hanya jika $(\Leftrightarrow )$</description>
     </item>
     
     <item>
       <title>Operasi Vektor Secara Geometri</title>
-      <link>https://www.sinmat.my.id/operasi-vektor-secara-geometri/</link>
+      <link>https://mazguru.github.io/operasi-vektor-secara-geometri/</link>
       <pubDate>Thu, 06 Jan 2022 12:48:56 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/operasi-vektor-secara-geometri/</guid>
+      <guid>https://mazguru.github.io/operasi-vektor-secara-geometri/</guid>
       <description>1. Penjumlahan Dua Vektor Jumlah dua vektor atau lebih disebut vektor hasil atau resultan. Secara geometris penjumlahan dua vektor ada 2 aturan, yaitu:
 Aturan segitiga Aturan jajar genjang Pada penjumlahan Vektor berlaku:
 Sifat komutatif
@@ -102,10 +102,10 @@ $ \overline{a}+(-\overline{a})=\overline{0} $ 2. Resultan dari beberapa vektor M
     
     <item>
       <title>Konsep Vektor dan Beberapa Jenis Vektor</title>
-      <link>https://www.sinmat.my.id/konsep-vektor-dan-beberapa-jenis-vektor/</link>
+      <link>https://mazguru.github.io/konsep-vektor-dan-beberapa-jenis-vektor/</link>
       <pubDate>Mon, 22 Nov 2021 22:41:20 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/konsep-vektor-dan-beberapa-jenis-vektor/</guid>
+      <guid>https://mazguru.github.io/konsep-vektor-dan-beberapa-jenis-vektor/</guid>
       <description>1.	Pengertian skalar dan vektor Dalam kehidupan sehari-hari, kita banyak menjumpai besaran-besaran, seperti panjang sebuah tongkat, volume suatu kaleng, luas sebidang kebun, banyaknya muatan listrik, massa suatu benda dan sebagainya. Besaran-besaran itu biasanya dinyatakan dengan suatu bilangan yang disertai dengan satuan besaran tersebut. Besaran-besaran seperti itu, disebut skalar.
 Apabila kita memindahkan atau menggeser sebuah benda (materi) yang berbentuk apa saja, maka perpindahan benda itu akan memenuhi dua unsur yaitu seberapa jauh kepindahannya dan ke arah mana benda itu berpindah.</description>
     </item>

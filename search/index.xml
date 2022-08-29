@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Search on Sinau Matematika</title>
-    <link>https://www.sinmat.my.id/search/</link>
+    <link>https://mazguru.github.io/search/</link>
     <description>Recent content in Search on Sinau Matematika</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>© {year} | Sinau Matematika</copyright><atom:link href="https://www.sinmat.my.id/search/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© {year} | Sinau Matematika</copyright><atom:link href="https://mazguru.github.io/search/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

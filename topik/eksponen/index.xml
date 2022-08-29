@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eksponen on Sinau Matematika</title>
-    <link>https://www.sinmat.my.id/topik/eksponen/</link>
+    <link>https://mazguru.github.io/topik/eksponen/</link>
     <description>Recent content in Eksponen on Sinau Matematika</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© {year} | Sinau Matematika</copyright>
-    <lastBuildDate>Mon, 06 Sep 2021 16:53:51 +0700</lastBuildDate><atom:link href="https://www.sinmat.my.id/topik/eksponen/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Sep 2021 16:53:51 +0700</lastBuildDate><atom:link href="https://mazguru.github.io/topik/eksponen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pertidaksamaan Eksponen Lanjut</title>
-      <link>https://www.sinmat.my.id/pertidaksamaan-eksponen-lanjut/</link>
+      <link>https://mazguru.github.io/pertidaksamaan-eksponen-lanjut/</link>
       <pubDate>Mon, 06 Sep 2021 16:53:51 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/pertidaksamaan-eksponen-lanjut/</guid>
+      <guid>https://mazguru.github.io/pertidaksamaan-eksponen-lanjut/</guid>
       <description>Pertidaksamaan eksponen lanjut Pertidaksamaan eksponen lanjut maksudnya adalah pertidaksamaan eksponen yang bentuknya selain bentuk pertidaksamaan eksponen sederhana. Misalkan bentuk $A{{\left( {{a}^{f(x)}} \right)}^{m}}+B\left( {{a}^{f(x)}} \right)+C\le 0$. Untuk menyelesaikan bentuk ini, biasanya diarahkan ke suatu persamaan polinomial atau persamaan kuadrat dengan memisalkan ${{a}^{f(x)}}=p$.
 Contoh Tentukan himpunan penyelesaian dari
 ${{3}^{2x}}-{{4.3}^{x+1}}+27&amp;lt;0$ ${{3}^{-2x+2}}-{{28.3}^{-x}}+3\ge 0$ Alternatif Penyelesaian ${{3}^{2x}}-{{4.3}^{x+1}}+27&amp;lt;0$
@@ -23,20 +23,20 @@ ${{p}^{2}}-12p+27&amp;lt;0 \newline (p-3)(p-9)&amp;lt;0 \newline $ Asumsi $p=3$ 
     
     <item>
       <title>Pertidaksamaan Eksponen Sederhana</title>
-      <link>https://www.sinmat.my.id/pertidaksamaan-eksponen-sederhana/</link>
+      <link>https://mazguru.github.io/pertidaksamaan-eksponen-sederhana/</link>
       <pubDate>Mon, 06 Sep 2021 16:53:34 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/pertidaksamaan-eksponen-sederhana/</guid>
+      <guid>https://mazguru.github.io/pertidaksamaan-eksponen-sederhana/</guid>
       <description>Setelah kita mempelajari tentang persamaan eksponen, sekarang pembahasan akan dilanjutkan dengan pertidaksamaan eksponen. Pertidaksamaan pasti memuat tanda $&amp;lt;,&amp;gt;,\le ,\ge $. Untuk menyelesaikan pertidaksamaan eksponen, kita harus benar-benar memahami sifat-sifat eksponen dan persamaan eksponen. Pertidaksamaan eksponen itu sendiri ada dua bentuk, yaitu pertidaksamaan eksponen sederhana dan pertidaksamaan eksponen lanjut.
 Pertidaksamaan eksponen sederhana. Pertidaksamaan eksponen sederhana maksudnya pertidaksamaan yang ruas kanan dan ruas kiri tanda pertidaksamaan sudah berbentuk pangkat. Dari berbagai bentuk pertidaksamaan eksponen yang ada, cara penyelesaiannya mengikuti langkah-langkah:</description>
     </item>
     
     <item>
       <title>Persamaan Eksponen Lanjut</title>
-      <link>https://www.sinmat.my.id/persamaan-eksponen-lanjut/</link>
+      <link>https://mazguru.github.io/persamaan-eksponen-lanjut/</link>
       <pubDate>Tue, 31 Aug 2021 20:07:26 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/persamaan-eksponen-lanjut/</guid>
+      <guid>https://mazguru.github.io/persamaan-eksponen-lanjut/</guid>
       <description>Persamaan eksponen lanjut. Persamaan Bentuk ${{a}^{f(x)}}={{b}^{f(x)}}$ Penyelesaian persamaan berbentuk ${{a}^{f(x)}}={{b}^{f(x)}}$ mengikuti aturan berikut : Jika $${{a}^{f(x)}}={{b}^{f(x)}}$$ dimana a &amp;gt; 0 ,b &amp;gt; 0 dan a ≠ 1, b ≠ 1, maka $$f(x)=0$$Contoh
 Tentukan himpunan penyelesaian dari
 ${{6}^{{{x}^{2}}-5x+6}}={{7}^{{{x}^{2}}-5x+6}}$ ${{7}^{8}}{{.3}^{{{x}^{2}}-8}}={{3}^{2x}}{{.7}^{{{x}^{2}}-2x}}$ Alternatif Penyelesaian
@@ -54,20 +54,20 @@ Jadi himpunan penyelesaiannya adalah {-2, 4}</description>
     
     <item>
       <title>Persamaan Eksponen Sederhana</title>
-      <link>https://www.sinmat.my.id/persamaan-eksponen-sederhana/</link>
+      <link>https://mazguru.github.io/persamaan-eksponen-sederhana/</link>
       <pubDate>Tue, 31 Aug 2021 20:01:26 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/persamaan-eksponen-sederhana/</guid>
+      <guid>https://mazguru.github.io/persamaan-eksponen-sederhana/</guid>
       <description>Setelah kita mempelajari tentang fungsi eksponen, sekarang pembahasan akan diperluas tentang persamaan eksponen dan pertidaksamaan eksponen. Persamaan eksponen adalah persamaan yang eksponennya (pangkatnya) memuat perubah x atau persamaan yang bilangan pokoknya memuat perubah x. Persamaan eksponen itu sendiri ada dua bentuk, yaitu persamaan eksponen sederhana dan persamaan eksponen lanjut.
 Persamaan eksponen sederhana maksudnya persamaan yang hanya menyamakan nilai basisnya dan langsung bisa menentukan penyelesaiannya. Dari berbagai bentuk persamaan eksponen yang ada, cara penyelesaiannya bergantung pada bentuknya.</description>
     </item>
     
     <item>
       <title>Grafik Fungsi Eksponen</title>
-      <link>https://www.sinmat.my.id/grafik-fungsi-eksponen/</link>
+      <link>https://mazguru.github.io/grafik-fungsi-eksponen/</link>
       <pubDate>Tue, 31 Aug 2021 17:01:26 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/grafik-fungsi-eksponen/</guid>
+      <guid>https://mazguru.github.io/grafik-fungsi-eksponen/</guid>
       <description>Grafik Fungsi Eksponen Menggambar sketsa grafik fungsi eksponen dapat dilakukan dengan langkah-langkah berikut
 Menentukan titik-titik bantu dengan membuat daftar atau tabel yang menunjukkan hubungan antara nilai-nilai x dengan nilai-nilai $y=f(x)=k.{{a}^{x}}$ . Titik-titik dengan koordinat (x, y) yang diperoleh digambarkan pada bidang kartesius, kemudian dihubungkan dengan kurva mulus, sehingga diperoleh grafik fungsi eksponen $y=f(x)=k.{{a}^{x}}$ Untuk lebih jelasnya, perhatikan contoh berikut.
 Contoh 1 Lukislah grafik fungsi $f(x)={{2}^{x}}$ untuk x bilangan real
@@ -76,10 +76,10 @@ penyelesaian</description>
     
     <item>
       <title>Pengertian Fungsi Eksponen</title>
-      <link>https://www.sinmat.my.id/pengertian-fungsi-eksponen/</link>
+      <link>https://mazguru.github.io/pengertian-fungsi-eksponen/</link>
       <pubDate>Thu, 26 Aug 2021 14:07:38 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/pengertian-fungsi-eksponen/</guid>
+      <guid>https://mazguru.github.io/pengertian-fungsi-eksponen/</guid>
       <description>Apa itu fungsi eksponen?
 Fungsi eksponensial adalah fungsi matematika, yang digunakan dalam banyak situasi dunia nyata. Hal ini terutama digunakan untuk menemukan peluruhan eksponensial atau pertumbuhan eksponensial atau untuk menghitung investasi, populasi model dan sebagainya. Untuk memahami fungsi eksponen, coba Kalian perhatikan masalah berikut.
 Dalam suatu tangki air mula-mula berisi 8 bakteri. Setiap Bakteri dapat membelah diri setiap 24 jam atau sehari. Bagaimanakah menuliskan banyak banyak bakteri tersebut setelah beberapa hari dalam bahasa yang sederhana?</description>
@@ -87,10 +87,10 @@ Dalam suatu tangki air mula-mula berisi 8 bakteri. Setiap Bakteri dapat membelah
     
     <item>
       <title>Pengertian Eksponen</title>
-      <link>https://www.sinmat.my.id/pengertian-eksponen/</link>
+      <link>https://mazguru.github.io/pengertian-eksponen/</link>
       <pubDate>Tue, 24 Aug 2021 23:54:49 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/pengertian-eksponen/</guid>
+      <guid>https://mazguru.github.io/pengertian-eksponen/</guid>
       <description>Pada tulisan ini kita akan membahas tentang eksponen dan sifat-sifatnya. Konsep eksponen ini Sudah dipelajari di jenjang SMP materi ini adalah materi prasyarat untuk kalian belajar fungsi eksponen di kelas 10 jenjang SMA. Eksponen banyak digunakan oleh para peneliti untuk memudahkan menulis angka. Misalkan jarak dari bumi ke bulan itu kan jauh sekali ya, panjang sekali. Nah itu, biasanya dituliskan dalam bentuk eksponen. Apa itu eksponen dan bagaimana sifat-sifatnya berikut ulasannya.</description>
     </item>
     

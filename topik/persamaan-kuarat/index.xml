@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Persamaan Kuarat on Sinau Matematika</title>
-    <link>https://www.sinmat.my.id/topik/persamaan-kuarat/</link>
+    <link>https://mazguru.github.io/topik/persamaan-kuarat/</link>
     <description>Recent content in Persamaan Kuarat on Sinau Matematika</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© {year} | Sinau Matematika</copyright>
-    <lastBuildDate>Tue, 16 Aug 2022 20:09:25 +0700</lastBuildDate><atom:link href="https://www.sinmat.my.id/topik/persamaan-kuarat/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Aug 2022 20:09:25 +0700</lastBuildDate><atom:link href="https://mazguru.github.io/topik/persamaan-kuarat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Latihan Soal Persamaan Trigonometri Bentuk Kuadrat</title>
-      <link>https://www.sinmat.my.id/latihan-soal-persamaan-trigonometri-bentuk-kuadrat/</link>
+      <link>https://mazguru.github.io/latihan-soal-persamaan-trigonometri-bentuk-kuadrat/</link>
       <pubDate>Tue, 16 Aug 2022 20:09:25 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/latihan-soal-persamaan-trigonometri-bentuk-kuadrat/</guid>
+      <guid>https://mazguru.github.io/latihan-soal-persamaan-trigonometri-bentuk-kuadrat/</guid>
       <description>Untuk mencari penyelesaian persamaan trigonometri bentuk kuadrat, kalian harus sudah memahami tentang pemfaktoran persamaan kuadrat, penyelesaian persamaan trigonometri sederhana↝dan menguasai identitas trigonometri dengan baik. Berikut beberapa contoh soal tentang persamaan trigonometri bentuk kuadrat
 Latihan Soal Tentukan himpunan penyelesaian dari persamaan $2{{\cos }^{2}}x+\cos x-1=0$, untuk $0\le x\le 360{}^\circ $
 Alternatif Penyelesaian ✍️Dengan memisalkan $\cos x=p$ maka
@@ -21,10 +21,10 @@ $2{{\cos }^{2}}x+\cos x-1=0$ (memisalkan $\cos x=p$) $\Leftrightarrow 2{{p}^{2}}
     
     <item>
       <title>Persamaan Trigonometri Bentuk Kuadrat</title>
-      <link>https://www.sinmat.my.id/persamaan-trigonometri-bentuk-kuadrat/</link>
+      <link>https://mazguru.github.io/persamaan-trigonometri-bentuk-kuadrat/</link>
       <pubDate>Sat, 28 Aug 2021 20:09:25 +0700</pubDate>
       
-      <guid>https://www.sinmat.my.id/persamaan-trigonometri-bentuk-kuadrat/</guid>
+      <guid>https://mazguru.github.io/persamaan-trigonometri-bentuk-kuadrat/</guid>
       <description>Persamaan trigonometri terkadang ada yang berbentuk persamaan kuadrat, atau mengharuskan kita untuk mengubah bentuknya menjadi persamaan kuadrat sehingga penyelesaian bisa kita peroleh dengan menggunakan aturan dalam persamaan kuadrat. Oleh karena itu, kalian harus sudah memahami tentang pemfaktoran persamaan kuadrat dan menguasai identitas trigonometri dengan baik. Perlu diingat juga bahwa rentang untuk nilai dari $\cos x$ dan $\sin x$ adalah $$\begin{align*} &amp;amp; -1\le \sin \theta \le 1 \ &amp;amp; -1\le \cos \theta \le 1 \ \end{align*}$$ Bagaimana cara menyelesaikan persamaan kuadrat trigonometri?</description>
     </item>
     
