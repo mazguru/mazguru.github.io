@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on Sinau Matematika</title>
+    <link>https://www.sinmat.my.id/tutorial/software/</link>
+    <description>Recent content in Software on Sinau Matematika</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© {year} | Sinau Matematika</copyright>
+    <lastBuildDate>Wed, 01 Dec 2021 17:10:03 +0700</lastBuildDate><atom:link href="https://www.sinmat.my.id/tutorial/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Download dan Install Visual Studio Code di Windows</title>
+      <link>https://www.sinmat.my.id/download-dan-install-visual-studio-code-di-windows/</link>
+      <pubDate>Sat, 18 Dec 2021 13:16:20 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/download-dan-install-visual-studio-code-di-windows/</guid>
+      <description>Apa itu Visual Studio Code? Visual studio Code atau VS Code adalah software text editor atau editor kode sumber buatan Microsoft yang bisa kita dapat secara gratis.
+Ketika saya mulai belajar tentang coding saya menggunakan Notepad++ dan akhirnya menemukan software Visual Studio Code yang nampaknya lebih mantep. Oke, kali ini saya akan membagikan bagaimana menginstall VS Code di Windows dan pengenalan antarmuka dari VS Code. langsung saja yuuk ikuti langkah-langkah berikut.</description>
+    </item>
+    
+    <item>
+      <title>Cara Menginstall Mathtype di Windows</title>
+      <link>https://www.sinmat.my.id/cara-menginstall-mathtype-di-windows/</link>
+      <pubDate>Wed, 01 Dec 2021 18:33:17 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/cara-menginstall-mathtype-di-windows/</guid>
+      <description>Kali ini saya akan berbagi bagaimana menginstal atau memasang software mathtype pada windows. Mathtype adalah salah satu software yang bisa digunakan untuk mengetik formula matematika yang bisa diintegrasikan dengan software lain seperti microsoft word dan lainnya serta bisa juga dijalankan secara terpisah. Aplikasi MathType ini dapat mengedit atau menulis persamaan matematika dari yang paling sederhana hingga yang sangat kompleks sesuai dengan standar matematika yang berlaku secara internasional. Bisa juga diintegrasikan dalam bentuk tex LaTeX.</description>
+    </item>
+    
+  </channel>
+</rss>

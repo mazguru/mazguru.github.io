@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="id"  class=scroll-smooth lang=id x-data="{ darkMode: localStorage.getItem('dark') === 'true'}" x-init="$watch('darkMode', val => localStorage.setItem('dark', val))" :class="{ 'dark': darkMode }">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pengertian Eksponen - Sinau Matematika</title>
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.d4331984d1e831ec4fc390bfb565d6886c5dbae90f4e025537c1db5e377cdadb.css" integrity="sha256-1DMZhNHoMexPw5C/tWXWiGxduukPTgJVN8HbXjd82ts=" />
+<link rel="stylesheet" href="https://www.sinmat.my.id/css/katex.min.c19918c18f3c537b9f533f097f2e2c3e5e4b5de4dce46f32657fdd2ae5ea296b.css" integrity="sha256-wZkYwY88U3ufUz8Jfy4sPl5LXeTc5G8yZX/dKuXqKWs=" crossorigin="anonymous"></head>
+    <body class="bg-slate-50 text-slate-800 dark:bg-slate-900 dark:text-white transition-colors"><nav class="bg-sky-700 dark:bg-sky-900 sticky top-0 z-40 shadow-md">
+    <div class="container max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+      <div class="relative flex items-center justify-between  py-3 md:py-2">
+        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+          
+          <button type="button" @click="$dispatch('sidemenu')" class="inline-flex items-center justify-center p-2 rounded-md text-gray-100 hover:text-white hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            
+            <svg aria-hidden="true" class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"></path>
+            </svg>
+            
+            <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+          <div class="flex-shrink-0 flex items-center">
+            <svg class="block lg:hidden w-8 h-8 active:scale-95" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 64 64" > <g id="Layer_x0020_1">  <path fill="#fff" d="M2 31c5,-14 23,-28 54,-29 0,9 -20,21 -16,32 7,3 13,2 20,-3 4,15 2,23 -4,31 -3,1 -1,-13 -2,-19 -11,0 -24,0 -35,0 -4,-11 22,-16 24,-29 -10,-9 -28,13 -41,17z"/> </g> </svg>
+            <svg class="hidden lg:block w-8 h-8 active:scale-95" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 64 64" > <g id="Layer_x0020_1">  <path fill="#fff" d="M2 31c5,-14 23,-28 54,-29 0,9 -20,21 -16,32 7,3 13,2 20,-3 4,15 2,23 -4,31 -3,1 -1,-13 -2,-19 -11,0 -24,0 -35,0 -4,-11 22,-16 24,-29 -10,-9 -28,13 -41,17z"/> </g> </svg>
+          </div>
+          <div class="hidden sm:block sm:ml-6">
+            <div class="flex space-x-4">
+              <a href="https://www.sinmat.my.id" class="hidden md:inline-flex items-center gap-1 px-3 py-2 rounded-lg font-medium text-gray-100 hover:bg-sky-800 focus:ring-2 focus:ring-sky-500">
+              🏠Home </a>
+              <div class="relative"
+                  x-data="{
+                    open: false,
+                    toggle() {
+                        if (this.open) {
+                            return this.close()
+                        }
+        
+                        this.$refs.button.focus()
+        
+                        this.open = true
+                    },
+                    close(focusAfter) {
+                        if (! this.open) return
+        
+                        this.open = false
+        
+                        focusAfter && focusAfter.focus()
+                    }
+                }"
+                x-on:keydown.escape.prevent.stop="close($refs.button)"
+                x-on:focusin.window="! $refs.panel.contains($event.target) && close()"
+                x-id="['navbarDropdownDropdown']"
+                class="relative"
+                >
+                  <div>
+                    <button 
+                    x-ref="button"
+                    x-on:click="toggle()"
+                    :aria-expanded="open"
+                    :aria-controls="$id('dropdown-button')"
+                    type="button" class="hidden md:inline-flex items-center gap-1 px-1 py-2 rounded-lg font-medium text-gray-100 hover:bg-sky-800 focus:ring-2 focus:ring-sky-500 bg-sky-700 " id="navbarDropdownDropdown">
+                    📖Belajar <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="ml-1 w-4 h-4">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                    
+                    </button>
+                   
+                  </div>
+        
+                  
+                  <div 
+                  x-ref="panel"
+                  x-show="open"
+                  x-transition.origin.top.left
+                  x-on:click.outside="close($refs.button)"
+                  :id="$id('dropdown-button')"
+                  style="display: none;"
+                  class="origin-top-right absolute left-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white dark:bg-slate-800 ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+                    <a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/belajar/aljabar/"><img src="/images/icon/aljabar.svg" class="d-inline icon lazyload lazyloaded" width="16" height="16">Aljabar</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/belajar/aritmetika/"><img src="/images/icon/pembagian.svg" class="d-inline icon lazyload lazyloaded" width="16" height="16">Aritmetika</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/belajar/kalkulus/"><img src="/images/icon/kalkulus.svg" class="d-inline icon lazyload lazyloaded" width="16" height="16">Kalkulus</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/belajar/trigonometri/"><img src="/images/icon/trigonometri.svg" class="d-inline icon lazyload lazyloaded" width="16" height="16">Trigonometri</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/belajar/geometri/"><img src="/images/icon/geometri.svg" class="d-inline icon lazyload lazyloaded" width="16" height="16">Geometri</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/belajar">More 🛰️</a></div>
+                </div><div class="relative"
+                  x-data="{
+                    open: false,
+                    toggle() {
+                        if (this.open) {
+                            return this.close()
+                        }
+        
+                        this.$refs.button.focus()
+        
+                        this.open = true
+                    },
+                    close(focusAfter) {
+                        if (! this.open) return
+        
+                        this.open = false
+        
+                        focusAfter && focusAfter.focus()
+                    }
+                }"
+                x-on:keydown.escape.prevent.stop="close($refs.button)"
+                x-on:focusin.window="! $refs.panel.contains($event.target) && close()"
+                x-id="['navbarDropdownMatsma']"
+                class="relative"
+                >
+                  <div>
+                    <button 
+                    x-ref="button"
+                    x-on:click="toggle()"
+                    :aria-expanded="open"
+                    :aria-controls="$id('dropdown-button')"
+                    type="button" class="hidden md:inline-flex items-center gap-1 px-1 py-2 rounded-lg font-medium text-gray-100 hover:bg-sky-800 focus:ring-2 focus:ring-sky-500 " id="navbarDropdownMatsma">
+                    🎲Matematika SMA <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="ml-1 w-4 h-4">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                    
+                    </button>
+                   
+                  </div>
+        
+                  
+                  <div 
+                  x-ref="panel"
+                  x-show="open"
+                  x-transition.origin.top.left
+                  x-on:click.outside="close($refs.button)"
+                  :id="$id('dropdown-button')"
+                  style="display: none;"
+                  class="origin-top-right absolute left-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white dark:bg-slate-800 ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+                    <a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/mat-sma/dimensi3/"><img src="/images/icon/f(x).svg" class="d-inline icon lazyload lazyloaded" width="16" height="16">Dimensi Tiga</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/mat-sma/eksponen-logaritma/"><img src="/images/icon/f(x).svg" class="d-inline icon lazyload lazyloaded" width="16" height="16">Eksponen &amp; Logaritma</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/mat-sma/vektor/"><img src="/images/icon/vektor.svg" class="d-inline icon lazyload lazyloaded" width="16" height="16">Vektor</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/mat-sma/pers-lingkaran/"><img src="/images/icon/lingkaran.svg" class="d-inline icon lazyload lazyloaded" width="16" height="16">Persamaan Lingkaran</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/mat-sma/jumlah-selisih-sinus-cosinus/"><img src="/images/icon/trigonometri.svg" class="d-inline icon lazyload lazyloaded" width="16" height="16">Persamaan Trigonometri</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/mat-sma">More 🚀</a></div>
+                </div><div class="relative"
+                  x-data="{
+                    open: false,
+                    toggle() {
+                        if (this.open) {
+                            return this.close()
+                        }
+        
+                        this.$refs.button.focus()
+        
+                        this.open = true
+                    },
+                    close(focusAfter) {
+                        if (! this.open) return
+        
+                        this.open = false
+        
+                        focusAfter && focusAfter.focus()
+                    }
+                }"
+                x-on:keydown.escape.prevent.stop="close($refs.button)"
+                x-on:focusin.window="! $refs.panel.contains($event.target) && close()"
+                x-id="['navbarDropdownPembatik']"
+                class="relative"
+                >
+                  <div>
+                    <button 
+                    x-ref="button"
+                    x-on:click="toggle()"
+                    :aria-expanded="open"
+                    :aria-controls="$id('dropdown-button')"
+                    type="button" class="hidden md:inline-flex items-center gap-1 px-1 py-2 rounded-lg font-medium text-gray-100 hover:bg-sky-800 focus:ring-2 focus:ring-sky-500 " id="navbarDropdownPembatik">
+                    <img src="/cover/logo-pembatik.png" class="d-inline icon lazyload lazyloaded" width="16" height="16">Pembatik <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="ml-1 w-4 h-4">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                    
+                    </button>
+                   
+                  </div>
+        
+                  
+                  <div 
+                  x-ref="panel"
+                  x-show="open"
+                  x-transition.origin.top.left
+                  x-on:click.outside="close($refs.button)"
+                  :id="$id('dropdown-button')"
+                  style="display: none;"
+                  class="origin-top-right absolute left-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white dark:bg-slate-800 ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+                    <a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/pembatik">📝Artikel</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/pembatik/vlog">🎥Vlog</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/pembatik/sosis">👨🏻‍🏫Sosialisasi Rumah Belajar</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/pembatik/drb">👨‍💻Catatan DRB</a></div>
+                </div><div class="relative"
+                  x-data="{
+                    open: false,
+                    toggle() {
+                        if (this.open) {
+                            return this.close()
+                        }
+        
+                        this.$refs.button.focus()
+        
+                        this.open = true
+                    },
+                    close(focusAfter) {
+                        if (! this.open) return
+        
+                        this.open = false
+        
+                        focusAfter && focusAfter.focus()
+                    }
+                }"
+                x-on:keydown.escape.prevent.stop="close($refs.button)"
+                x-on:focusin.window="! $refs.panel.contains($event.target) && close()"
+                x-id="['navbarDropdownVideo']"
+                class="relative"
+                >
+                  <div>
+                    <button 
+                    x-ref="button"
+                    x-on:click="toggle()"
+                    :aria-expanded="open"
+                    :aria-controls="$id('dropdown-button')"
+                    type="button" class="hidden md:inline-flex items-center gap-1 px-1 py-2 rounded-lg font-medium text-gray-100 hover:bg-sky-800 focus:ring-2 focus:ring-sky-500 " id="navbarDropdownVideo">
+                    🏷️Lainnya <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="ml-1 w-4 h-4">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                    
+                    </button>
+                   
+                  </div>
+        
+                  
+                  <div 
+                  x-ref="panel"
+                  x-show="open"
+                  x-transition.origin.top.left
+                  x-on:click.outside="close($refs.button)"
+                  :id="$id('dropdown-button')"
+                  style="display: none;"
+                  class="origin-top-right absolute left-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white dark:bg-slate-800 ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+                    <a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.youtube.com/channel/UCPqHmSdwMI5ah-1jrn00bBw" target="_blank" rel="noopener noreferrer">🎥Video</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/tutorial">🖌️Tutorial</a></div>
+                </div></div>
+          </div>
+        </div>
+        
+        <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+          <a href="/search" class="p-1 rounded-full text-gray-100 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+            <span class="sr-only">View notifications</span>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>
+            
+            </svg>
+          </a>
+          <button
+              aria-label="toggle dark mode"
+              type="button"
+              @click="darkMode = !darkMode;"
+              class="p-1 rounded-full text-sky-100 hover:bg-sky-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-sky-500"
+          >
+              <svg viewBox="0 0 24 24" fill="none" class="h-8 w-8 md:h-6 md:w-6 active:scale-95" :class="{'hidden': darkMode }">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M17.715 15.15A6.5 6.5.0 019 6.035c-2.894.887-5 3.61-5 6.832.0 3.94 3.153 7.136 7.042 7.136 3.101.0 5.734-2.032 6.673-4.853z"></path>
+                  <path
+                      d="m17.715 15.15.95.316a1 1 0 00-1.445-1.185l.495.869zM9 6.035l.846.534a1 1 0 00-1.14-1.49L9 6.035zm8.221 8.246a5.47 5.47.0 01-2.72.718v2a7.47 7.47.0 003.71-.98l-.99-1.738zm-2.72.718A5.5 5.5.0 019 9.5H7a7.5 7.5.0 007.5 7.5v-2zM9 9.5c0-1.079.31-2.082.845-2.93L8.153 5.5A7.47 7.47.0 007 9.5h2zm-4 3.368C5 10.089 6.815 7.75 9.292 6.99L8.706 5.08C5.397 6.094 3 9.201 3 12.867h2zm6.042 6.136C7.718 19.003 5 16.268 5 12.867H3c0 4.48 3.588 8.136 8.042 8.136v-2zm5.725-4.17c-.81 2.433-3.074 4.17-5.725 4.17v2c3.552.0 6.553-2.327 7.622-5.537l-1.897-.632z"
+                      class="fill-sky-100"
+                  ></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M17 3a1 1 0 011 1 2 2 0 002 2 1 1 0 110 2 2 2 0 00-2 2 1 1 0 11-2 0 2 2 0 00-2-2 1 1 0 110-2 2 2 0 002-2 1 1 0 011-1z" class="fill-sky-100"></path>
+              </svg>
+              <svg class="h-8 w-8 md:h-6 md:w-6 hidden active:scale-95" :class="{'hidden': !darkMode }" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentcolor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364-.707-.707M6.343 6.343l-.707-.707m12.728.0-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+              </svg>
+          </button>
+          
+        </div>
+      </div>
+    </div>
+    
+  </nav>
+<aside id="side-menu" class="bg-slate-700/80 text-slate-700 dark:text-slate-100 fixed top-0 left-0 w-screen h-screen z-50" x-data="{sideMenuOpen: false, moreOpen: false}" @sidemenu.window="sideMenuOpen = true" x-show="sideMenuOpen" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition ease-in duration-300" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" style=""><div class="bg-white dark:bg-slate-700 w-96 h-screen p-4" @click.away="sideMenuOpen = false" x-show="sideMenuOpen" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="-translate-x-96" x-transition:enter-end="translate-x-0" x-transition:leave="transition ease-in duration-300" x-transition:leave-start="translate-x-0" x-transition:leave-end="-translate-x-96" style="">
+    <header class="flex justify-between">
+    <h1 class="font-bold text-2xl">Menu</h1>
+    <button aria-label="close side menu" type="button" class="p-1 rounded-full bg-slate-200 dark:bg-slate-600 hover:bg-red-400/75 dark:hover:bg-red-400/75" @click="sideMenuOpen = false">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 md:h-6 md:w-6 active:scale-95" fill="none" viewBox="0 0 24 24" stroke="currentcolor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"></path></svg>
+    </button>
+    </header>
+    <nav class="my-4">
+      <a href="https://www.sinmat.my.id" class="flex items-center gap-1 px-3 py-2 rounded-lg font-medium text-slate-800 hover:bg-slate-400/25 dark:text-slate-100 focus:ring-2 focus:ring-sky-500">
+        🏠Home </a>
+        <div class="relatif"
+            x-data="{
+              open: false,
+              toggle() {
+                  if (this.open) {
+                      return this.close()
+                  }
+  
+                  this.$refs.button.focus()
+  
+                  this.open = true
+              },
+              close(focusAfter) {
+                  if (! this.open) return
+  
+                  this.open = false
+  
+                  focusAfter && focusAfter.focus()
+              }
+          }"
+          x-on:keydown.escape.prevent.stop="close($refs.button)"
+          x-on:focusin.window="! $refs.panel.contains($event.target) && close()"
+          x-id="['navbarDropdownDropdown']"
+          class="relative"
+          >
+            <div>
+              <button 
+              x-ref="button"
+              x-on:click="toggle()"
+              :aria-expanded="open"
+              :aria-controls="$id('dropdown-button')"
+              type="button" class="flex items-center gap-1 px-3 py-2 rounded-lg font-medium text-slate-800 hover:bg-slate-400/25 dark:text-slate-100 focus:ring-2 focus:ring-sky-500 bg-sky-700 " id="navbarDropdownDropdown">
+              📖Belajar <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="ml-1 w-4 h-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
+              </svg>
+              
+              </button>
+             
+            </div>
+  
+            
+            <div 
+            x-ref="panel"
+            x-show="open"
+            x-transition.origin.top.left
+            x-on:click.outside="close($refs.button)"
+            :id="$id('dropdown-button')"
+            style="display: none;"
+            class="origin-top-right absolute left-3 mt-2 w-48 rounded-md shadow-lg py-1 bg-slate-100 dark:bg-slate-800 ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+              <a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/belajar/aljabar/"><img src="/images/icon/aljabar.svg" class="d-inline icon lazyload lazyloaded" width="16" height="16">Aljabar</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/belajar/aritmetika/"><img src="/images/icon/pembagian.svg" class="d-inline icon lazyload lazyloaded" width="16" height="16">Aritmetika</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/belajar/kalkulus/"><img src="/images/icon/kalkulus.svg" class="d-inline icon lazyload lazyloaded" width="16" height="16">Kalkulus</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/belajar/trigonometri/"><img src="/images/icon/trigonometri.svg" class="d-inline icon lazyload lazyloaded" width="16" height="16">Trigonometri</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/belajar/geometri/"><img src="/images/icon/geometri.svg" class="d-inline icon lazyload lazyloaded" width="16" height="16">Geometri</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/belajar">More 🛰️</a></div>
+          </div><div class="relatif"
+            x-data="{
+              open: false,
+              toggle() {
+                  if (this.open) {
+                      return this.close()
+                  }
+  
+                  this.$refs.button.focus()
+  
+                  this.open = true
+              },
+              close(focusAfter) {
+                  if (! this.open) return
+  
+                  this.open = false
+  
+                  focusAfter && focusAfter.focus()
+              }
+          }"
+          x-on:keydown.escape.prevent.stop="close($refs.button)"
+          x-on:focusin.window="! $refs.panel.contains($event.target) && close()"
+          x-id="['navbarDropdownMatsma']"
+          class="relative"
+          >
+            <div>
+              <button 
+              x-ref="button"
+              x-on:click="toggle()"
+              :aria-expanded="open"
+              :aria-controls="$id('dropdown-button')"
+              type="button" class="flex items-center gap-1 px-3 py-2 rounded-lg font-medium text-slate-800 hover:bg-slate-400/25 dark:text-slate-100 focus:ring-2 focus:ring-sky-500 " id="navbarDropdownMatsma">
+              🎲Matematika SMA <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="ml-1 w-4 h-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
+              </svg>
+              
+              </button>
+             
+            </div>
+  
+            
+            <div 
+            x-ref="panel"
+            x-show="open"
+            x-transition.origin.top.left
+            x-on:click.outside="close($refs.button)"
+            :id="$id('dropdown-button')"
+            style="display: none;"
+            class="origin-top-right absolute left-3 mt-2 w-48 rounded-md shadow-lg py-1 bg-slate-100 dark:bg-slate-800 ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+              <a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/mat-sma/dimensi3/"><img src="/images/icon/f(x).svg" class="d-inline icon lazyload lazyloaded" width="16" height="16">Dimensi Tiga</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/mat-sma/eksponen-logaritma/"><img src="/images/icon/f(x).svg" class="d-inline icon lazyload lazyloaded" width="16" height="16">Eksponen &amp; Logaritma</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/mat-sma/vektor/"><img src="/images/icon/vektor.svg" class="d-inline icon lazyload lazyloaded" width="16" height="16">Vektor</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/mat-sma/pers-lingkaran/"><img src="/images/icon/lingkaran.svg" class="d-inline icon lazyload lazyloaded" width="16" height="16">Persamaan Lingkaran</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/mat-sma/jumlah-selisih-sinus-cosinus/"><img src="/images/icon/trigonometri.svg" class="d-inline icon lazyload lazyloaded" width="16" height="16">Persamaan Trigonometri</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/mat-sma">More 🚀</a></div>
+          </div><div class="relatif"
+            x-data="{
+              open: false,
+              toggle() {
+                  if (this.open) {
+                      return this.close()
+                  }
+  
+                  this.$refs.button.focus()
+  
+                  this.open = true
+              },
+              close(focusAfter) {
+                  if (! this.open) return
+  
+                  this.open = false
+  
+                  focusAfter && focusAfter.focus()
+              }
+          }"
+          x-on:keydown.escape.prevent.stop="close($refs.button)"
+          x-on:focusin.window="! $refs.panel.contains($event.target) && close()"
+          x-id="['navbarDropdownPembatik']"
+          class="relative"
+          >
+            <div>
+              <button 
+              x-ref="button"
+              x-on:click="toggle()"
+              :aria-expanded="open"
+              :aria-controls="$id('dropdown-button')"
+              type="button" class="flex items-center gap-1 px-3 py-2 rounded-lg font-medium text-slate-800 hover:bg-slate-400/25 dark:text-slate-100 focus:ring-2 focus:ring-sky-500 " id="navbarDropdownPembatik">
+              <img src="/cover/logo-pembatik.png" class="d-inline icon lazyload lazyloaded" width="16" height="16">Pembatik <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="ml-1 w-4 h-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
+              </svg>
+              
+              </button>
+             
+            </div>
+  
+            
+            <div 
+            x-ref="panel"
+            x-show="open"
+            x-transition.origin.top.left
+            x-on:click.outside="close($refs.button)"
+            :id="$id('dropdown-button')"
+            style="display: none;"
+            class="origin-top-right absolute left-3 mt-2 w-48 rounded-md shadow-lg py-1 bg-slate-100 dark:bg-slate-800 ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+              <a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/pembatik">📝Artikel</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/pembatik/vlog">🎥Vlog</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/pembatik/sosis">👨🏻‍🏫Sosialisasi Rumah Belajar</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/pembatik/drb">👨‍💻Catatan DRB</a></div>
+          </div><div class="relatif"
+            x-data="{
+              open: false,
+              toggle() {
+                  if (this.open) {
+                      return this.close()
+                  }
+  
+                  this.$refs.button.focus()
+  
+                  this.open = true
+              },
+              close(focusAfter) {
+                  if (! this.open) return
+  
+                  this.open = false
+  
+                  focusAfter && focusAfter.focus()
+              }
+          }"
+          x-on:keydown.escape.prevent.stop="close($refs.button)"
+          x-on:focusin.window="! $refs.panel.contains($event.target) && close()"
+          x-id="['navbarDropdownVideo']"
+          class="relative"
+          >
+            <div>
+              <button 
+              x-ref="button"
+              x-on:click="toggle()"
+              :aria-expanded="open"
+              :aria-controls="$id('dropdown-button')"
+              type="button" class="flex items-center gap-1 px-3 py-2 rounded-lg font-medium text-slate-800 hover:bg-slate-400/25 dark:text-slate-100 focus:ring-2 focus:ring-sky-500 " id="navbarDropdownVideo">
+              🏷️Lainnya <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="ml-1 w-4 h-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
+              </svg>
+              
+              </button>
+             
+            </div>
+  
+            
+            <div 
+            x-ref="panel"
+            x-show="open"
+            x-transition.origin.top.left
+            x-on:click.outside="close($refs.button)"
+            :id="$id('dropdown-button')"
+            style="display: none;"
+            class="origin-top-right absolute left-3 mt-2 w-48 rounded-md shadow-lg py-1 bg-slate-100 dark:bg-slate-800 ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+              <a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.youtube.com/channel/UCPqHmSdwMI5ah-1jrn00bBw" target="_blank" rel="noopener noreferrer">🎥Video</a><a class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-1 text-left text-md hover:text-slate-50 hover:bg-sky-700   disabled:text-gray-500 " role="menuitem" tabindex="-1" id="user-menu-item-1" href="https://www.sinmat.my.id/tutorial">🖌️Tutorial</a></div>
+          </div><hr class="my-4 border-slate-400/25"><a href="#!" @click="moreOpen = !moreOpen" x-text="moreOpen ? 'Less...': 'More...'" class="mb-4 flex items-center gap-1 px-3 py-2 rounded-lg font-medium text-slate-800 hover:bg-slate-400/25 dark:text-slate-100 focus:ring-2 focus:ring-sky-500">More...</a>
+      <template x-if="moreOpen">
+        <div><a class="flex items-center gap-1 px-3 py-2 rounded-lg font-medium text-slate-800 hover:bg-slate-400/25 dark:text-slate-100 focus:ring-2 focus:ring-sky-500" href="/about" rel="noopener noreferrer">About
+</a><a class="flex items-center gap-1 px-3 py-2 rounded-lg font-medium text-slate-800 hover:bg-slate-400/25 dark:text-slate-100 focus:ring-2 focus:ring-sky-500" href="/contact" rel="noopener noreferrer">Contact
+</a><a class="flex items-center gap-1 px-3 py-2 rounded-lg font-medium text-slate-800 hover:bg-slate-400/25 dark:text-slate-100 focus:ring-2 focus:ring-sky-500" href="/arsip" rel="noopener noreferrer">Archive
+</a><a class="flex items-center gap-1 px-3 py-2 rounded-lg font-medium text-slate-800 hover:bg-slate-400/25 dark:text-slate-100 focus:ring-2 focus:ring-sky-500" href="/privacy-police" rel="noopener noreferrer">Kebijakan Privasi
+</a></div>
+        </template></nav>
+  </div>
+</aside><div class="container px-0 lg:px-6 lg:max-w-7xl mx-auto grid grid-cols-4 md:grid-cols-12 my-4 mb:my-8 lg:my-16">
+<div class="col-span-4 md:col-span-8"><div class="col-span-4 md:col-span-8">
+<article class="shadow-md p-4 md:p-6 lg:p-8 xl:p-16 relative bg-white dark:bg-slate-800 rounded-xl prose max-w-none lg:prose-xl prose-p:text-justify prose-slate dark:prose-invert prose-headings:font-sans prose-headings:tracking-tight prose-p:font-serif prose-ol:font-serif prose-ul:font-serif prose-pre:dark:border prose-pre:dark:border-slate-700"><div class="post-panel-wrapper">
+  <div class="d-flex flex-column component rounded post-panel">
+
+    <a class="action action-panel-toggler" role="button" title="Panel toggler">
+      <i class="fa-fw bi bi-chevron-bar-down"></i>
+    </a>
+    <a id="sidebarToggler" class="action d-none d-lg-block" role="button" title="Sidebar toggler">
+  <i class="fa-fw bi bi-chevron-bar-expand" data-fa-transform="rotate-90"></i>
+</a>
+
+    <a class="action" href="#post-comments" role="button" aria-label="Comments" title="Comments">
+  <i style='transform: rotate(90deg)' class="fa-fw bi bi-chat-text-fill"></i>
+</a>
+    
+    
+
+
+  <a class="action" aria-label="Share to Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.sinmat.my.id%2fpengertian-eksponen%2f" target="_blank" rel="noopener">
+  <i class='bi fa-fw bi-facebook'>
+  </i >
+  </a>
+  <a class="action" aria-label="Share to Twitter" href="https://twitter.com/intent/tweet?hashtags=sinaumatematika&amp;url=https%3a%2f%2fwww.sinmat.my.id%2fpengertian-eksponen%2f&amp;text=Pengertian%20Eksponen" target="_blank" rel="noopener">
+  <i class='fa-fw bi bi-twitter' >
+  </i>
+  </a>
+  <a class="action btn-share--linkedin" aria-label="Share to LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.sinmat.my.id%2fpengertian-eksponen%2f&amp;source=https%3a%2f%2fwww.sinmat.my.id%2fpengertian-eksponen%2f&amp;title=Pengertian%20Eksponen&amp;summary=Pengertian%20Eksponen" target="_blank" rel="noopener">
+  <i class="fa-fw bi bi-linkedin"></i>
+  </a>
+
+  </div>
+</div>
+<header class="not-prose">
+    
+    <h1 class="text-3xl md:text-4xl lg:text-5xl font-black mb-4 leading-tight tracking-tight">Pengertian Eksponen
+</h1>
+    <div class="mb-4 flex items-center justify-start gap-2 text-base"><img class="rounded-full inline lazyload h-6 w-6 lazyloaded" alt="Bakhtiar Rifai" src="https://www.sinmat.my.id/images/fotoku/profilku.webp" data-src="https://www.sinmat.my.id/images/fotoku/profilku.webp" loading="lazy" width="32" height="32" style="width: 32px;height: 32px">
+        <a class="text-dark" href="/about">Bakhtiar Rifai</a><time datetime="2 Jan 2006" title="Ditulis pada 24 Aug 2021 dan di-update pada 24 Aug 2021">• 24 Aug 2021</time></div>
+    <section class="flex pb-2 gap-1 flex-wrap"><a rel="tag" class="p-1 px-1 rounded-md text-xs font-medium bg-sky-100 dark:bg-sky-700 dark:hover:bg-sky-600/25 hover:bg-sky-600/25" href="/topik/css">#Aljabar</a><a rel="tag" class="p-1 px-1 rounded-md text-xs font-medium bg-sky-100 dark:bg-sky-700 dark:hover:bg-sky-600/25 hover:bg-sky-600/25" href="/topik/css">#Matematika SMA</a><a rel="tag" class="p-1 px-1 rounded-md text-xs font-medium bg-sky-100 dark:bg-sky-700 dark:hover:bg-sky-600/25 hover:bg-sky-600/25" href="/topik/css">#Matematika</a><a rel="tag" class="p-1 px-1 rounded-md text-xs font-medium bg-sky-100 dark:bg-sky-700 dark:hover:bg-sky-600/25 hover:bg-sky-600/25" href="/topik/css">#Eksponen</a><a rel="tag" class="p-1 px-1 rounded-md text-xs font-medium bg-sky-100 dark:bg-sky-700 dark:hover:bg-sky-600/25 hover:bg-sky-600/25" href="/topik/css">#Fungsi Eksponen</a></section>
+    <hr class="border-sky-300 dark:border-sky-700">
+    
+  </header><div class="text-center mb-3">
+      <img class="img-fluid lazyload" alt="Pengertian Eksponen" src="/img/placeholder.svg" data-src="https://www.sinmat.my.id/header/pengertian-eksponen.jpg" loading="lazy" width="100%" height="100%">
+    </div>
+    <div class="mb-2"><p>Pada tulisan ini kita akan membahas tentang eksponen dan sifat-sifatnya. Konsep eksponen ini Sudah dipelajari di jenjang SMP materi ini adalah materi prasyarat untuk kalian belajar fungsi eksponen di kelas 10 jenjang SMA. Eksponen banyak digunakan oleh para peneliti untuk memudahkan menulis angka. Misalkan jarak dari bumi ke bulan itu kan jauh sekali ya, panjang sekali. Nah itu, biasanya dituliskan dalam bentuk eksponen. Apa itu eksponen dan bagaimana sifat-sifatnya berikut ulasannya.</p>
+<p><strong>Eksponen</strong> adalah bentuk perkalian bilangan yang sama dan juga berulang-ulang. Eksponen juga bisa dibilang dengan bilangan berpangkat. Bentuk umum dari eksponen adalah</p>
+<p>$$a^n=a.a.a.a&hellip;.a$$ perkalian $a$ sebanyak $n$ kali</p>
+<p><strong>Keterangan</strong></p>
+<p>$a^n$ dibaca $a$ pangkat $n$ dengan $a,n$ bilangan real</p>
+<p>$a$ adalah bilangan pokok (basis)</p>
+<p>$n$ adalah pangkat/eksponen</p>
+</div>
+    <div class="not-prose"><hr></div><div class="grid not-prose md:grid-cols-2 pt-4"><a href="https://www.sinmat.my.id/persamaan-paling-cantik/" class="px-10 text-center md:text-right first:rounded-t-lg md:first:rounded-tr-none md:first:rounded-l-lg last:rounded-r-lg first last:rounded-b-lg backdrop-blur-lg bg-white hover:bg-sky-600 dark:bg-black dark:bg-opacity-30 bg-opacity-10 hover:bg-opacity-20 dark:hover:bg-opacity-50 transition border border-gray-800 dark:border-white border-opacity-10 dark:border-opacity-10 last:border-t md:border-r-0 md:last:border-r md:last:rounded-r-none flex flex-col">
+    <p class="uppercase text-gray-500 dark:text-white dark:opacity-60">Previous</p>
+    <h6 class="text-xl text-gray-700 dark:text-white">Persamaan Matematika Paling Cantik
+</h6>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="transform rotate-180 mx-auto md:mr-0 mt-auto"><path class="stroke-current text-primary" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 19l7-7-7-7"></path></svg>
+  </a><a href="https://www.sinmat.my.id/sejarah-dan-evolusi-angka/" class="px-10 text-center md:text-left md:first:rounded-t-lg last:rounded-b-lg first:rounded-l-lg md:last:rounded-bl-none md:last:rounded-r-lg backdrop-blur-lg bg-white hover:bg-sky-600 dark:bg-black dark:bg-opacity-30 bg-opacity-10 hover:bg-opacity-20 dark:hover:bg-opacity-50 transition border border-gray-800 dark:border-white border-opacity-10 dark:border-opacity-10 border-t-0 first:border-t first:rounded-t-lg md:border-t border-b-0 last:border-b flex flex-col" href="/posts/hello-world">
+    <p class="uppercase text-gray-500 dark:text-white dark:opacity-60">Next</p>
+    <h6 class="text-xl text-gray-700 dark:text-white">Sejarah Dan Evolusi Angka
+</h6>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="mt-auto mx-auto md:ml-0"><path class="stroke-current text-primary" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 19l7-7-7-7"></path></svg>
+  </a></div></article><section class="shadow-md p-2 md:p-4 lg:p-4 xl:p-8 bg-white dark:bg-slate-800 rounded-xl mt-2 md:mt-4 lg:mt-8">
+    <h2 class="text-2xl font-bold mb-4 flex items-center gap-2">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+      </svg>
+      Artikel Terkait
+    </h2>
+    <ul><li class="mb-2 rounded-md line-clamp-2 cols-2">
+        <a class="p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600" href="https://www.sinmat.my.id/pertidaksamaan-eksponen-lanjut/">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+          </svg>
+          Pertidaksamaan Eksponen Lanjut
+ <span class='ml-auto float-right'>6 Sep 2021
+</span>
+        </a>
+      </li><li class="mb-2 rounded-md line-clamp-2 cols-2">
+        <a class="p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600" href="https://www.sinmat.my.id/pertidaksamaan-eksponen-sederhana/">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+          </svg>
+          Pertidaksamaan Eksponen Sederhana
+ <span class='ml-auto float-right'>6 Sep 2021
+</span>
+        </a>
+      </li><li class="mb-2 rounded-md line-clamp-2 cols-2">
+        <a class="p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600" href="https://www.sinmat.my.id/persamaan-eksponen-lanjut/">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+          </svg>
+          Persamaan Eksponen Lanjut
+ <span class='ml-auto float-right'>31 Agu 2021
+</span>
+        </a>
+      </li><li class="mb-2 rounded-md line-clamp-2 cols-2">
+        <a class="p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600" href="https://www.sinmat.my.id/persamaan-eksponen-sederhana/">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+          </svg>
+          Persamaan Eksponen Sederhana
+ <span class='ml-auto float-right'>31 Agu 2021
+</span>
+        </a>
+      </li><li class="mb-2 rounded-md line-clamp-2 cols-2">
+        <a class="p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600" href="https://www.sinmat.my.id/grafik-fungsi-eksponen/">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+          </svg>
+          Grafik Fungsi Eksponen
+ <span class='ml-auto float-right'>31 Agu 2021
+</span>
+        </a>
+      </li></ul>
+  </section><div class="shadow-md p-2 md:p-4 lg:p-4 xl:p-8 bg-white dark:bg-slate-800 rounded-xl mt-2 md:mt-4 lg:mt-8" id="post-comments">
+  <h2 class="text-2xl font-bold mb-4 flex items-center gap-2">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+    </svg>    
+    Komentar
+  </h2><script src="https://utteranc.es/client.js"
+  repo="mazguru/mazguru.github.io"
+  issue-term="pathname"
+  label="comment"
+  theme="github-light"
+  crossorigin="anonymous"
+  async>
+</script></div></div>
+  
+</div><aside class="px-4 md:px-8 md:pl-4 md:pr-0 lg:pl-8 lg:pr-0 mt-8 md:mt-0 col-span-4 md:col-span-4"><section class="mb-4 rounded-lg bg-white dark:bg-slate-800 shadow-md">
+    <h4 class="text-2xl font-bold p-4 tracking-tight border-b dark:border-slate-700">🔥Artikel Terbaru</h4><a class='surface list-group-item list-group-item-action flex-column align-items-start' href="https://www.sinmat.my.id/soal-hots-jarak-titik-garis-dan-bidang-pada-bangun-ruang/">
+        <div class="flex justify-between items-center gap-2 p-4 hover:bg-slate-100 dark:hover:bg-slate-700 active:scale-95 transition-all">
+          <div>
+            <h6 class="text-lg font-semibold tracking-tight line-clamp-2 leading-tight mb-1">Soal HOTS Jarak Titik, Garis, Dan Bidang Pada Bangun Ruang
+</h6>
+            <p class="text-sm text-slate-700 dark:text-slate-200 line-clamp-1"><span class="post-date">
+                 23 Aug 2022
+              </span><span class="post-reading-time">
+                • Baca 5 menit
+              </span></p>
+          </div><img class="rounded lazyloaded" src="https://www.sinmat.my.id/cover/geometri.png" data-sizes="auto" alt="Soal HOTS Jarak Titik, Garis, Dan Bidang Pada Bangun Ruang
+" loading='lazy' width="60" height="60" style='object-fit:cover'>
+          </div>
+      </a><a class='surface list-group-item list-group-item-action flex-column align-items-start' href="https://www.sinmat.my.id/hubungan-grafik-fungsi-eksponensial/">
+        <div class="flex justify-between items-center gap-2 p-4 hover:bg-slate-100 dark:hover:bg-slate-700 active:scale-95 transition-all">
+          <div>
+            <h6 class="text-lg font-semibold tracking-tight line-clamp-2 leading-tight mb-1">Hubungan Grafik Fungsi Eksponensial
+</h6>
+            <p class="text-sm text-slate-700 dark:text-slate-200 line-clamp-1"><span class="post-date">
+                 22 Aug 2022
+              </span><span class="post-reading-time">
+                • Baca 1 menit
+              </span></p>
+          </div><img class="rounded lazyloaded" src="https://www.sinmat.my.id/images/cover/cover-eksponen.png" data-sizes="auto" alt="Hubungan Grafik Fungsi Eksponensial
+" loading='lazy' width="60" height="60" style='object-fit:cover'>
+          </div>
+      </a><a class='surface list-group-item list-group-item-action flex-column align-items-start' href="https://www.sinmat.my.id/latihan-soal-persamaan-trigonometri-bentuk-kuadrat/">
+        <div class="flex justify-between items-center gap-2 p-4 hover:bg-slate-100 dark:hover:bg-slate-700 active:scale-95 transition-all">
+          <div>
+            <h6 class="text-lg font-semibold tracking-tight line-clamp-2 leading-tight mb-1">Latihan Soal Persamaan Trigonometri Bentuk Kuadrat
+</h6>
+            <p class="text-sm text-slate-700 dark:text-slate-200 line-clamp-1"><span class="post-date">
+                 16 Aug 2022
+              </span><span class="post-reading-time">
+                • Baca 4 menit
+              </span></p>
+          </div><img class="rounded lazyloaded" src="https://www.sinmat.my.id/images/cover/cover-persamaan-trigonometri.png" data-sizes="auto" alt="Latihan Soal Persamaan Trigonometri Bentuk Kuadrat
+" loading='lazy' width="60" height="60" style='object-fit:cover'>
+          </div>
+      </a><a class='surface list-group-item list-group-item-action flex-column align-items-start' href="https://www.sinmat.my.id/konsep-jarak-titik-pada-bangun-ruang/">
+        <div class="flex justify-between items-center gap-2 p-4 hover:bg-slate-100 dark:hover:bg-slate-700 active:scale-95 transition-all">
+          <div>
+            <h6 class="text-lg font-semibold tracking-tight line-clamp-2 leading-tight mb-1">Konsep Jarak Titik Pada Bangun Ruang
+</h6>
+            <p class="text-sm text-slate-700 dark:text-slate-200 line-clamp-1"><span class="post-date">
+                 12 Aug 2022
+              </span><span class="post-reading-time">
+                • Baca 8 menit
+              </span></p>
+          </div><img class="rounded lazyloaded" src="https://www.sinmat.my.id/cover/geometri.png" data-sizes="auto" alt="Konsep Jarak Titik Pada Bangun Ruang
+" loading='lazy' width="60" height="60" style='object-fit:cover'>
+          </div>
+      </a><a class='surface list-group-item list-group-item-action flex-column align-items-start' href="https://www.sinmat.my.id/dimensi-3-kedudukan-titik-garis-bidang/">
+        <div class="flex justify-between items-center gap-2 p-4 hover:bg-slate-100 dark:hover:bg-slate-700 active:scale-95 transition-all">
+          <div>
+            <h6 class="text-lg font-semibold tracking-tight line-clamp-2 leading-tight mb-1">Dimensi 3: Kedudukan Titik, Garis, Bidang
+</h6>
+            <p class="text-sm text-slate-700 dark:text-slate-200 line-clamp-1"><span class="post-date">
+                 11 Aug 2022
+              </span><span class="post-reading-time">
+                • Baca 4 menit
+              </span></p>
+          </div><img class="rounded lazyloaded" src="https://www.sinmat.my.id/cover/geometri.png" data-sizes="auto" alt="Dimensi 3: Kedudukan Titik, Garis, Bidang
+" loading='lazy' width="60" height="60" style='object-fit:cover'>
+          </div>
+      </a><a class='surface list-group-item list-group-item-action flex-column align-items-start' href="https://www.sinmat.my.id/pembatik/drb/catatan-bimtek-level-2/">
+        <div class="flex justify-between items-center gap-2 p-4 hover:bg-slate-100 dark:hover:bg-slate-700 active:scale-95 transition-all">
+          <div>
+            <h6 class="text-lg font-semibold tracking-tight line-clamp-2 leading-tight mb-1">Catatan Bimtek Pembatik Level 2 Tahun 2022
+</h6>
+            <p class="text-sm text-slate-700 dark:text-slate-200 line-clamp-1"><span class="post-date">
+                 9 Aug 2022
+              </span><span class="post-reading-time">
+                • Baca 3 menit
+              </span></p>
+          </div><img class="rounded lazyloaded" src="https://www.sinmat.my.id/cover/pembatik.jpg" data-sizes="auto" alt="Catatan Bimtek Pembatik Level 2 Tahun 2022
+" loading='lazy' width="60" height="60" style='object-fit:cover'>
+          </div>
+      </a></section><section class="p-1 mb-16 rounded-lg bg-white dark:bg-slate-800 shadow-md">
+  <h4 class="text-2xl font-bold p-4 tracking-tight border-b dark:border-slate-700">📚 Belajar lainnya</h4>
+  <ul>
+    
+      
+      <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
+        <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://www.sinmat.my.id/pembatik/drb/"><img class="w-4 h-4" alt="DRB" src="https://www.sinmat.my.id/header/catatan-drb.jpg" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
+            <p class="align-middle">
+            
+            DRB 
+          </p>
+        </a>
+      </li>
+      <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
+        <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://www.sinmat.my.id/pembatik/informasi/"><img class="w-4 h-4" alt="Informasi" src="https://www.sinmat.my.id/tumbnail/informasi-drb.jpg" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
+            <p class="align-middle">
+            
+            Informasi 
+          </p>
+        </a>
+      </li>
+      <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
+        <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://www.sinmat.my.id/pembatik/sosis/"><img class="w-4 h-4" alt="Sosis Rumbel (Sosialisasi Rumah Belajar)" src="https://www.sinmat.my.id/images/pembatik/header3.jpg" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
+            <p class="align-middle">
+            
+            Sosis Rumbel (Sosialisasi Rumah Belajar) 
+          </p>
+        </a>
+      </li>
+      
+      
+      
+      
+      <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
+        <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://www.sinmat.my.id/tutorial/quizizz/"><img class="w-4 h-4" alt="Quizizz" src="https://www.sinmat.my.id/cover/quizizz.png" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
+            <p class="align-middle">
+            
+            Quizizz 
+          </p>
+        </a>
+      </li>
+      <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
+        <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://www.sinmat.my.id/tutorial/software/"><img class="w-4 h-4" alt="Software" src="https://www.sinmat.my.id/images/favicons/apple-touch-icon.png" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
+            <p class="align-middle">
+            
+            Software 
+          </p>
+        </a>
+      </li>
+      <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
+        <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://www.sinmat.my.id/tutorial/disqus/"><img class="w-4 h-4" alt="Disqus" src="https://www.sinmat.my.id/images/tutorial/disqus/logo.svg" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
+            <p class="align-middle">
+            
+            Disqus 
+          </p>
+        </a>
+      </li>
+      <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
+        <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://www.sinmat.my.id/tutorial/blogger/"><img class="w-4 h-4" alt="Blogger" src="https://www.sinmat.my.id/cover/blogger.png" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
+            <p class="align-middle">
+            
+            Blogger 
+          </p>
+        </a>
+      </li>
+      <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
+        <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://www.sinmat.my.id/tutorial/google/"><img class="w-4 h-4" alt="Google" src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
+            <p class="align-middle">
+            
+            Google 
+          </p>
+        </a>
+      </li>
+      
+      <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
+        <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://www.sinmat.my.id/belajar/kalkulus/"><img class="w-4 h-4" alt="Kalkulus" src="https://www.sinmat.my.id/images/icon/kalkulus.svg" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
+            <p class="align-middle">
+            
+            Kalkulus 
+          </p>
+        </a>
+      </li>
+      <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
+        <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://www.sinmat.my.id/belajar/geometri/"><img class="w-4 h-4" alt="Geometri" src="https://www.sinmat.my.id/images/icon/geometri.svg" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
+            <p class="align-middle">
+            
+            Geometri 
+          </p>
+        </a>
+      </li>
+      <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
+        <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://www.sinmat.my.id/belajar/sejarah-matematika/"><img class="w-4 h-4" alt="Sejarah Matematika" src="https://www.sinmat.my.id/images/icon/sejarah.svg" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
+            <p class="align-middle">
+            
+            Sejarah Matematika 
+          </p>
+        </a>
+      </li>
+      <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
+        <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://www.sinmat.my.id/belajar/trigonometri/"><img class="w-4 h-4" alt="Trigonometri" src="https://www.sinmat.my.id/images/icon/trigonometri.svg" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
+            <p class="align-middle">
+            
+            Trigonometri 
+          </p>
+        </a>
+      </li>
+      <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
+        <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://www.sinmat.my.id/belajar/aritmetika/"><img class="w-4 h-4" alt="Aritmetika" src="https://www.sinmat.my.id/images/icon/pembagian.svg" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
+            <p class="align-middle">
+            
+            Aritmetika 
+          </p>
+        </a>
+      </li>
+      <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
+        <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://www.sinmat.my.id/belajar/aljabar/"><img class="w-4 h-4" alt="Aljabar" src="https://www.sinmat.my.id/images/icon/aljabar.svg" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
+            <p class="align-middle">
+            
+            Aljabar 
+          </p>
+        </a>
+      </li>
+      
+      <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
+        <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://www.sinmat.my.id/mat-sma/dimensi3/"><img class="w-4 h-4" alt="Dimensi Tiga" src="https://www.sinmat.my.id/images/icon/f%28x%29.svg" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
+            <p class="align-middle">
+            
+            Dimensi Tiga 
+          </p>
+        </a>
+      </li>
+      <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
+        <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://www.sinmat.my.id/mat-sma/eksponen-logaritma/"><img class="w-4 h-4" alt="Fungsi Eksponen dan Logaritma" src="https://www.sinmat.my.id/images/icon/f%28x%29.svg" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
+            <p class="align-middle">
+            
+            Fungsi Eksponen dan Logaritma 
+          </p>
+        </a>
+      </li>
+      <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
+        <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://www.sinmat.my.id/mat-sma/jumlah-selisih-sinus-cosinus/"><img class="w-4 h-4" alt="Jumlah Selisih Sinus Cosinus" src="https://www.sinmat.my.id/images/icon/trigonometri.svg" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
+            <p class="align-middle">
+            
+            Jumlah Selisih Sinus Cosinus 
+          </p>
+        </a>
+      </li>
+      <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
+        <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://www.sinmat.my.id/mat-sma/pers-lingkaran/"><img class="w-4 h-4" alt="Persamaan Lingakran" src="https://www.sinmat.my.id/images/icon/lingkaran.svg" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
+            <p class="align-middle">
+            
+            Persamaan Lingakran 
+          </p>
+        </a>
+      </li>
+      <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
+        <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://www.sinmat.my.id/mat-sma/persamaan-trigonometri/"><img class="w-4 h-4" alt="Persamaan Trigonometri" src="https://www.sinmat.my.id/images/icon/trigonometri.svg" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
+            <p class="align-middle">
+            
+            Persamaan Trigonometri 
+          </p>
+        </a>
+      </li>
+      <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
+        <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://www.sinmat.my.id/mat-sma/vektor/"><img class="w-4 h-4" alt="Vektor" src="https://www.sinmat.my.id/images/icon/vektor.svg" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
+            <p class="align-middle">
+            
+            Vektor 
+          </p>
+        </a>
+      </li>
+      
+      
+      
+      
+      </ul>
+</section></aside></div><footer class="text-center lg:text-left bg-slate-800 text-gray-100">
+  <div class="container mx-auto px-6 lg:max-w-7xl justify-center items-center lg:justify-between p-4 border-b border-gray-300">
+    <div class="flex text-center justify-center">
+      Ikuti kami di sosial media:
+    </div>
+    <div class="flex justify-center"><div class="cols-auto text-center justify-center items-center sm:static sm:inset-auto sm:ml-6 sm:pr-0 mb-2"><a class="text-2xl py-1 rounded-full text-sky-100 hover:text-white focus:outline-none focus:ring-2 focus:ring-sky-500 hover:ring-2 hover:ring-sky-500" href="mailto:bakhtiarsma@gmail.com" title="Email">
+      <span class="h-7 w-7 px-1 icon-gmail"></span>    
+    </a><a class="text-2xl py-1 rounded-full text-sky-100 hover:text-white focus:outline-none focus:ring-2 focus:ring-sky-500 hover:ring-2 hover:ring-sky-500" target="_blank" href="https://facebook.com/bhe.rifai" title="Facebook" rel="noopener noreferrer">
+        <span class="h-10 w-10 px-1 icon-facebook"></span>
+      </a><a class="text-2xl py-1 rounded-full text-sky-100 hover:text-white focus:outline-none focus:ring-2 focus:ring-sky-500 hover:ring-2 hover:ring-sky-500" target="_blank" href="https://github.com/mazguru" title="GitHub" rel="noopener noreferrer">
+        <span class="h-10 w-10 px-1 icon-github"></span>
+      </a><a class="text-2xl py-1 rounded-full text-sky-100 hover:text-white focus:outline-none focus:ring-2 focus:ring-sky-500 hover:ring-2 hover:ring-sky-500" target="_blank" href="https://gitlab.com/mazguru" title="GitLab" rel="noopener noreferrer">
+        <span class="h-10 w-10 px-1 icon-gitlab"></span>
+      </a><a class="text-2xl py-1 rounded-full text-sky-100 hover:text-white focus:outline-none focus:ring-2 focus:ring-sky-500 hover:ring-2 hover:ring-sky-500" target="_blank" href="https://www.instagram.com/bherifai" title="instagram" rel="noopener noreferrer">
+        <span class="h-10 w-10 px-1 icon-instagram"></span>
+      </a><a class="text-2xl py-1 rounded-full text-sky-100 hover:text-white focus:outline-none focus:ring-2 focus:ring-sky-500 hover:ring-2 hover:ring-sky-500" target="_blank" href="https://t.me/sinaumatematika" title="Telegram" rel="noopener noreferrer">
+        <span class="h-10 w-10 px-1 icon-telegram"></span>
+      </a><a class="text-2xl py-1 rounded-full text-sky-100 hover:text-white focus:outline-none focus:ring-2 focus:ring-sky-500 hover:ring-2 hover:ring-sky-500" target="_blank" href="https://twitter.com/Bakhtiarrifai14" title="twitter" rel="noopener noreferrer">
+        <span class="h-10 w-10 px-1 icon-twitter"></span>
+      </a><a class="text-2xl py-1 rounded-full text-sky-100 hover:text-white focus:outline-none focus:ring-2 focus:ring-sky-500 hover:ring-2 hover:ring-sky-500" target="_blank" href="https://www.youtube.com/channel/UCPqHmSdwMI5ah-1jrn00bBw" title="Youtube" rel="noopener noreferrer">
+        <span class="h-10 w-10 px-1 icon-youtube"></span>
+      </a><a class="text-2xl p-1 rounded-full text-sky-100 hover:text-white focus:outline-none focus:ring-2 focus:ring-sky-500 hover:ring-2 hover:ring-sky-500" target="_blank" href="https://feeds.feedburner.com/sinau-matematika" title="RSS" rel="noopener noreferrer">
+    <span class="h-7 w-7 px-1 icon-rss"></span>
+  </a>
+</div></div>
+  </div>
+  <div class="container mx-auto px-4 lg:max-w-7xl py-6 text-center md:text-left">
+    <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="hidden lg:block">
+        <a href="https://www.sinmat.my.id" class="fill-white text-sky-200 hover:text-sky-600">
+        <svg class="w-48 fill-white hover:fill-teal-600" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="200px" height="90px" version="1.1" style="fill:currentColor; shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+          viewBox="0 0 200 90"
+          xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="Layer_x0020_1">
+            <metadata id="CorelCorpID_0Corel-Layer"/>
+            <g id="_1844948745312">
+            <path class="fil0" d="M100 26c-1,1 -1,2 -1,3 0,0 0,1 1,2 1,1 2,2 4,2 2,1 3,0 4,-2 1,-1 2,-2 2,-3 0,0 0,-1 0,-1 -1,-2 -2,-3 -4,-3 -1,-1 -1,-1 -1,-1 -2,0 -3,1 -5,3z"/>
+            <path class="fil0" d="M140 38l9 1c2,-4 4,-5 6,-5 3,0 4,1 4,2 1,1 1,2 1,6 -3,-1 -5,-1 -7,-1 -2,0 -3,0 -5,1 -3,0 -5,3 -5,7 0,0 0,0 0,1 1,5 6,7 17,8l1 1 8 0 1 -11c0,-5 -1,-9 -2,-12 -2,-7 -6,-10 -13,-10 -2,0 -3,0 -5,0 -4,1 -8,5 -10,12zm20 9l0 5c-5,-1 -8,-2 -8,-4 0,-1 2,-2 4,-2 1,0 2,0 4,1z"/>
+            <path class="fil1" d="M4 33c5,-1 14,-7 19,-10 6,-4 13,-6 22,-6 -2,4 -9,9 -14,12 -8,5 -10,5 -13,15 9,0 29,0 35,2 0,3 -1,12 6,16 6,-9 4,-27 1,-32 0,0 0,0 0,0 -6,2 -12,7 -19,2 4,-11 16,-10 16,-18 1,-4 0,-7 -2,-10 -20,-2 -47,17 -51,29z"/>
+            <path class="fil0" d="M194 58l1 -33 -8 0 0 21c-2,3 -4,4 -5,4 -2,0 -3,-5 -3,-16 0,-2 0,-6 0,-9l-8 0c0,16 1,26 3,30 1,3 2,4 5,4 2,0 5,-1 9,-4l0 3 6 0z"/>
+            <path class="fil0" d="M111 28l1 31 8 0 0 -16c3,-4 5,-6 7,-6 1,0 1,0 2,1 1,2 2,5 2,9 0,3 -1,7 -1,11l9 0c0,-4 0,-7 0,-10 0,-9 -1,-15 -3,-19 -1,-2 -3,-3 -6,-3 -2,0 -6,1 -10,4l-1 -3 -8 1z"/>
+            <path class="fil0" d="M99 38c1,4 1,8 1,12 0,4 0,7 0,10l8 0c1,-8 1,-16 2,-23l-11 1z"/>
+            <path class="fil0" d="M65 56l5 -10c6,4 11,5 14,5 1,0 2,0 4,-1 1,0 1,-1 1,-2 0,-2 -2,-3 -6,-4 -7,-2 -11,-5 -14,-10 0,-1 -1,-3 -1,-4 0,-4 2,-7 6,-9 3,-1 7,-2 11,-2 4,0 8,1 14,2l-4 9c-4,-1 -7,-2 -9,-2 -1,0 -3,0 -4,1 -1,0 -2,1 -2,2 0,1 1,2 3,3 1,1 4,2 7,3 3,1 5,2 6,3 2,1 3,4 3,6 0,4 -2,8 -6,12 -2,1 -5,2 -8,2 -5,0 -12,-1 -20,-4z"/>
+            <path class="fil0" d="M178 71l5 0c2,-2 3,-3 4,-3 2,0 3,1 3,2 0,0 0,1 0,4 -1,-1 -3,-1 -4,-1 -1,0 -2,0 -3,0 -2,1 -3,2 -3,5 0,0 0,0 0,1 0,3 4,4 11,5l0 1 5 -1 0 -7c0,-3 0,-5 -1,-8 -1,-4 -4,-6 -8,-6 -1,0 -2,0 -3,0 -2,1 -4,3 -6,8zm12 6l0 3c-3,-1 -5,-1 -5,-3 1,0 1,-1 3,-1 0,0 1,0 2,1z"/>
+            <path class="fil0" d="M161 59c0,10 1,18 2,27l5 -1c-1,-3 -1,-6 -1,-10l6 9 5 -3 -7 -8 5 -7 -6 -2 -3 7c0,-1 0,-2 0,-3 0,-2 0,-5 0,-8l-6 -1z"/>
+            <path class="fil0" d="M155 63c-1,0 -1,1 -1,2 0,0 0,1 0,1 1,1 2,2 3,2 1,0 2,0 3,-1 0,-1 1,-2 1,-2 0,-1 0,-1 -1,-1 0,-1 -1,-2 -2,-3 0,0 0,0 -1,0 -1,0 -1,1 -2,2z"/>
+            <path class="fil0" d="M154 71c1,3 1,5 1,8 0,2 0,4 -1,7l6 -1c0,-5 0,-10 0,-15l-6 1z"/>
+            <path class="fil0" d="M137 73l0 -5 3 0 0 -9 5 0 0 8 5 0 0 5 -5 0c0,1 0,2 0,2 0,5 0,7 1,7 2,1 3,0 3,-3l4 1c0,3 -1,5 -3,6 -1,1 -2,1 -4,1 -1,0 -1,0 -2,0 -2,-1 -4,-5 -4,-13l-3 0z"/>
+            <path class="fil0" d="M119 71l6 0c1,-2 2,-3 3,-3 2,0 3,1 3,2 0,0 0,1 0,4 -1,-1 -3,-1 -4,-1 -1,0 -2,0 -3,0 -2,1 -3,2 -3,5 0,0 0,0 0,1 1,3 4,4 11,5l0 1 5 -1 0 -7c0,-3 0,-5 -1,-8 -1,-4 -4,-6 -8,-6 -1,0 -2,0 -3,0 -2,1 -4,3 -6,8zm12 6l0 3c-3,-1 -5,-1 -4,-3 0,0 0,-1 2,-1 1,0 1,0 2,1z"/>
+            <path class="fil0" d="M94 65l1 20 5 0 0 -10c1,-3 2,-4 3,-4 1,0 1,0 1,1 1,2 2,4 2,7 0,2 -1,4 -1,6l5 0c0,-3 0,-5 0,-7 0,-4 0,-7 2,-7 1,0 2,4 2,11 0,1 0,2 0,3l4 -1c1,-3 1,-5 1,-8 0,-6 -1,-9 -4,-10 -1,-1 -1,-1 -2,-1 -2,0 -4,1 -5,3 -1,-3 -2,-4 -4,-4 -1,0 -3,1 -5,3l0 -3 -5 1z"/>
+            <path class="fil0" d="M81 76c1,2 2,3 4,3 2,0 3,-1 4,-3l5 0c-1,6 -4,9 -8,9 -2,0 -3,-1 -5,-1 -3,-2 -4,-5 -4,-10 0,-1 0,-1 0,-2 0,-6 3,-9 8,-10 5,0 8,4 9,11l-13 3zm2 -7c-1,1 -2,2 -2,3l8 -2c-1,-2 -2,-3 -3,-3 -2,0 -3,1 -3,2z"/>
+            <path class="fil0" d="M60 73l0 -5 4 0 0 -9 5 0 -1 8 5 0 0 5 -5 0c0,1 0,2 0,2 0,5 1,7 2,7 1,1 2,0 3,-3l4 1c-1,3 -2,5 -3,6 -1,1 -3,1 -4,1 -1,0 -2,0 -2,0 -3,-1 -4,-5 -4,-13l-4 0z"/>
+            <path class="fil0" d="M41 71l6 0c1,-2 2,-3 3,-3 2,0 3,1 3,2 0,0 0,1 0,4 -1,-1 -3,-1 -4,-1 -1,0 -2,0 -3,0 -2,1 -3,2 -3,5 0,0 0,0 0,1 1,3 4,4 11,5l0 1 5 -1 0 -7c0,-3 0,-5 -1,-8 -1,-4 -4,-6 -8,-6 -1,0 -2,0 -3,0 -2,1 -4,3 -6,8zm12 6l0 3c-3,-1 -5,-1 -4,-3 0,0 0,-1 2,-1 0,0 1,0 2,1z"/>
+            <path class="fil0" d="M15 56l-1 28 7 1 1 -17 2 11 7 0 2 -10 0 17 8 0c0,-10 -1,-20 -2,-30l-8 0 -3 12 -4 -13 -9 1z"/>
+            </g>
+          </g>
+          </svg>
+        </a>
+        <p>
+          Belajar Tanpa Batas, Berkarya Tanpa Henti, Berbagi Sepenuh hati.
+        </p>
+      </div>
+      <div class="">
+        <h5 class="uppercase font-bold text-xl mb-4 flex justify-center md:justify-start">
+          Company
+        </h5><p class="mb-2">
+              <a class="text-gray-200 font-semibold hover:text-sky-500" href="/about" rel="noopener noreferrer">About
+</a>
+            </p><p class="mb-2">
+              <a class="text-gray-200 font-semibold hover:text-sky-500" href="/contact" rel="noopener noreferrer">Contact
+</a>
+            </p><p class="mb-2">
+              <a class="text-gray-200 font-semibold hover:text-sky-500" href="/arsip" rel="noopener noreferrer">Archive
+</a>
+            </p><p class="mb-2">
+              <a class="text-gray-200 font-semibold hover:text-sky-500" href="/privacy-police" rel="noopener noreferrer">Kebijakan Privasi
+</a>
+            </p></div>
+      <div class="">
+        <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
+          Contact
+        </h6>
+        <p class="flex items-center justify-center md:justify-start mb-4">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home"
+            class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+            <path fill="currentColor"
+              d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z">
+            </path>
+          </svg>
+          Wates, Kulon Progo, D.I. Yogyakarta, ID
+        </p>
+        <p class="flex items-center justify-center md:justify-start mb-4">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
+            class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512">
+            <path fill="currentColor"
+              d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+            </path>
+          </svg>
+          bakhtiarsma@gmail.com
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="text-center px-6 pb-6 pt-4 bg-slate-900"><div class=" powered-by mb-2">
+      Made with ❤️ using <a class="text-sky-300 font-bold hover:text-sky-700" href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo 📌</a> 
+    </div><div class="font-semibold mb-2">
+      © 2022 | Sinau Matematika
+    </div>
+  </div>
+</footer><script src="https://www.sinmat.my.id/main.min.06606a506f590accbe5e9d77388524c81baa8ad67156a70b204cc8be7c93d8e8.js" integrity="sha256-BmBqUG9ZCsy&#43;Xp13OIUkyBuqitZxVqcLIEzIvnyT2Og=" crossorigin="anonymous" defer></script><script defer src="https://www.sinmat.my.id/js/lazysizes.min.f83269b851d7ac60e489fb470ae202da0c5def7e0a53c01d7be29ea12d169ef7.js" integrity="sha256-&#43;DJpuFHXrGDkiftHCuIC2gxd734KU8Ade&#43;KeoS0Wnvc=" crossorigin="anonymous"></script><script defer src="https://www.sinmat.my.id/js/katex.min.7a3f9be4924880fda98cdfba2728afd3d89e46fb3604e1ba06f1736f02cc60ed.js" integrity="sha256-ej&#43;b5JJIgP2pjN&#43;6Jyiv09ieRvs2BOG6BvFzbwLMYO0=" crossorigin="anonymous"></script></body>
+</html>

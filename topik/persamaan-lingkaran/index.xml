@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Persamaan lingkaran on Sinau Matematika</title>
+    <link>https://www.sinmat.my.id/topik/persamaan-lingkaran/</link>
+    <description>Recent content in Persamaan lingkaran on Sinau Matematika</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© {year} | Sinau Matematika</copyright>
+    <lastBuildDate>Thu, 03 Feb 2022 12:58:52 +0700</lastBuildDate><atom:link href="https://www.sinmat.my.id/topik/persamaan-lingkaran/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kedudukan Dua Lingkaran (Irisan Dua Lingkaran)</title>
+      <link>https://www.sinmat.my.id/kedudukan-dua-lingkaran-irisan-dua-lingkaran/</link>
+      <pubDate>Thu, 03 Feb 2022 12:58:52 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/kedudukan-dua-lingkaran-irisan-dua-lingkaran/</guid>
+      <description>Kedudukan antara dua lingkaran atau kedudukan dua lingkaran menujukkan posisi antara lingkaran pertama dan lingkaran kedua. ada beberapa posisi dari dua lingkaran ini. Jika digambarkan sangat mudah menentukan jenisnya. Namun, bagaimana jika yang diketahui hanya persamaan kedua lingkaran? Kedudukan dua lingkaran yang persamaannya diketahul dapat digambarkan melalui bidang koordinat dengan menentukan pusat lingkaran dan jari-jari kedua lingkaran. Sebelum itu, kita harus ingat kembali persamaan lingkaran↝dan juga rumus mengenai jarak antara dua titik↝.</description>
+    </item>
+    
+    <item>
+      <title>Persamaan Garis Singgung Lingkaran</title>
+      <link>https://www.sinmat.my.id/persamaan-garis-singgung-lingkaran/</link>
+      <pubDate>Mon, 24 Jan 2022 19:25:59 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/persamaan-garis-singgung-lingkaran/</guid>
+      <description>Garis singgung lingkaran merupakan suatu garis yang memotong lingkaran tepat pada satu titik dan berpotongan tegak lurus dengan jari-jari di titik singgungnya. Untuk memudahkan dalam mempelajari persamaan garis singgung lingkaran, sebaiknya pahami dulu materi persamaan lingkaran. Ada tiga jenis yang diketahui dalam menentukan persamaan garis singgung lingkaran, yaitu :
+Garis singgung yang melalui suatu titik pada lingkaran, Garis singgung melalui suatu titik di luar lingkaran, dan Garis singgung lingkaran yang diketahui gradien garisnya.</description>
+    </item>
+    
+    <item>
+      <title>Kedudukan Garis Terhadap Lingkaran</title>
+      <link>https://www.sinmat.my.id/kedudukan-garis-terhadap-lingkaran/</link>
+      <pubDate>Sun, 23 Jan 2022 16:17:34 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/kedudukan-garis-terhadap-lingkaran/</guid>
+      <description>Pada materi sebelumnya kita sudah belajar tentang kedudukan titik terhadap lingkaran. Selanjutnya kita akan belajar tentang kedudukan garis terhadap lingkaran. Jika garis $𝑦=𝑚𝑥+𝑛$ sembarang dan 𝐿 adalah lingkaran dengan jari-jari 𝑟, maka ada tiga kedudukan garis terhadap lingkaran yaitu
+Garis memotong lingkaran pada dua titik Garis menyinggung lingkaran (memiliki 1 titik potong) dan Garis tidak memiliki titik potong terhadap lingkaran Kedudukan Garis Terhadap Lingkaran Langkah-langkah menentukan kedudukan garis terhadap lingkaran untuk menentukan kedudukan garis terhadap lingkaran langkah-langkahnya sebagai berikut:</description>
+    </item>
+    
+    <item>
+      <title>Kedudukan Titik Terhadap Lingkaran</title>
+      <link>https://www.sinmat.my.id/kedudukan-titik-terhadap-lingkaran/</link>
+      <pubDate>Thu, 20 Jan 2022 19:17:34 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/kedudukan-titik-terhadap-lingkaran/</guid>
+      <description>Pada materi sebelumnya kita sudah belajar tentang persamaan lingkaran. Selanjutnya kita akan belajar tentang kedudukan titik terhadap lingkaran. Kita mulai dari kedudukan titik terhadap lingkaran. Jika titik $P(x_1,y_1)$ sembarang dan L adalah lingkaran dengan jari-jari $r$ maka ada tiga posisi titik $P$ terhadap lingkaran L yaitu
+Titik P terletak pada lingkaran Titik P di dalam lingkaran dan Titik P diluar lingkaran Untuk memahami materi ini perlu diingat tentang persamaan lingkaran yaitu:</description>
+    </item>
+    
+    <item>
+      <title>Persamaan Lingkaran Memenuhi Kriteria Tertentu</title>
+      <link>https://www.sinmat.my.id/persamaan-lingkaran-memenuhi-kriteria-tertentu/</link>
+      <pubDate>Wed, 19 Jan 2022 18:10:03 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/persamaan-lingkaran-memenuhi-kriteria-tertentu/</guid>
+      <description>Untuk dapat menentukan persamaan suatu lingkaran dapat dilakukan dengan dua cara, yaitu:
+Tentukan titik pusat dan jari-jari lingkaran Substitusikan ke dalam persamaan lingkaran Dalam menentukan jari-jari lingkaran, kita harus mengerti tentang formula jarak titik ke titik dan titik ke garis. Berikut ini diberikan beberapa formula untuk menentukan jarak.
+Jarak antara dua titik $A(x_1 , y_1)$ dan $B(x_2 , y_2)$, ditentukan oleh $$j = \sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$$ Jarak titik $A(x_1 , y_1)$ terhadap garis lurus $ax + by + c = 0$ dirumuskan $$j=\left| \frac{a{x_1}+b{y_1}+c}{\sqrt{a^2+b^2}} \right|$$ 1.</description>
+    </item>
+    
+    <item>
+      <title>Rumus Persamaan Umum Lingkaran</title>
+      <link>https://www.sinmat.my.id/rumus-persamaan-umum-lingkaran/</link>
+      <pubDate>Tue, 04 Jan 2022 22:55:42 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/rumus-persamaan-umum-lingkaran/</guid>
+      <description>Lingkaran seringkali kita jumpai dalam kehidupan sehari-hari. Benda-benda di sekitar kita banyak yang dibuat dalam objek geometri ini, seperti jam, roda, ban, koin, cincin dan lainnya. Dalam kejadian gempa, bahasa lingkaran jadi alat komunikasi yang paling tepat untuk menyampaikan suatu informasi. Misalnya dengan mengatakan gempa mengguncang kota A dengan pusat di titik B dan radius r km. Dengan informasi ini kita bisa mengetahui apakah penduduk di kota C yang tak jauh dari kota A merasakan dampak dari gempa atau tidak.</description>
+    </item>
+    
+  </channel>
+</rss>

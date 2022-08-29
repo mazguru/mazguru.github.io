@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://www.sinmat.my.id/sitemap.xml

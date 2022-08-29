@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fungsi Eksponen dan Logaritma on Sinau Matematika</title>
+    <link>https://www.sinmat.my.id/mat-sma/eksponen-logaritma/</link>
+    <description>Recent content in Fungsi Eksponen dan Logaritma on Sinau Matematika</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© {year} | Sinau Matematika</copyright>
+    <lastBuildDate>Wed, 25 Aug 2021 15:49:39 +0700</lastBuildDate><atom:link href="https://www.sinmat.my.id/mat-sma/eksponen-logaritma/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hubungan Grafik Fungsi Eksponensial</title>
+      <link>https://www.sinmat.my.id/hubungan-grafik-fungsi-eksponensial/</link>
+      <pubDate>Mon, 22 Aug 2022 12:33:17 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/hubungan-grafik-fungsi-eksponensial/</guid>
+      <description>Setelah mempelajari cara menggambar grafik fungsi eksponensial↝kali ini kita akan menganalisa bagaimana sih hubungan antara dua grafik fungsi eksponensial? mari kita ingat kembali bahwa bentuk umum dari fungsi eksponensial adalah $$f(x)=a^x$$ dimana $a&amp;gt;0$, $a\ne 0$, dan $a,x ∈ R$. $a$ disebut dengan basis atau bilangan pokok dan $x$ disebut eksponen atau pangkat.
+Selanjutnya untuk mengetahui hubungan antara dua grafik fungsi eksponen kalian dapat melakukan ujicoba dengan geogebra berikut.</description>
+    </item>
+    
+    <item>
+      <title>Persamaan Logaritma Lanjut dan Contohnya</title>
+      <link>https://www.sinmat.my.id/persamaan-logaritma-lanjut-dan-contohnya/</link>
+      <pubDate>Tue, 16 Nov 2021 18:55:58 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/persamaan-logaritma-lanjut-dan-contohnya/</guid>
+      <description>Setelah sebelumnya belajar persamaan logaritma sederhana, kita lanjutkan pembahasantentang persamaan logaritma lanjut. Beberapabentuk yang akan kita bahas pada artikel ini.
+Untuk $ a, b \in R , a &amp;gt; 0 , b &amp;gt; 0 , $ dan $ a \neq 1 , $ berlaku sifat-sifat persamaan logaritma berikut :
+$ {}^{h(x)} \log f(x) = {}^{h(x)} \log g(x) , $ maka $ f(x) = g(x) $
+dengan syarat : $ f(x) &amp;gt; 0, g(x) &amp;gt; 0 , h(x) &amp;gt; 0, $ dan $ h(x) \neq 1 $ $ {}^{f(x)} \log b = {}^{g(x)} \log b , $ maka $ f(x) = g(x) $</description>
+    </item>
+    
+    <item>
+      <title>Persamaan Logaritma Sederhana dan Contohnya</title>
+      <link>https://www.sinmat.my.id/persamaan-logaritma-sederhana-dan-contohnya/</link>
+      <pubDate>Tue, 16 Nov 2021 18:55:53 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/persamaan-logaritma-sederhana-dan-contohnya/</guid>
+      <description>Persamaan Logaritma merupakan persamaan yang melibatkan sifat-sifat logaritma yang dihubungkan dengan tanda sama dengan. Untuk memudahkan dalam mempelajari persamaan logaritma, sebaiknya kita kuasai dulu sifat-sifat logaritma, karena pasti akan melibatkan sifat-sifat logaritma setiap kali menyelesaikan bentuk persamaan logaritmanya.
+Persamaan logaritma adalah persamaan yang numerusnya mengandung variabel dan tidak menutup kemungkinan bilangan pokok atau basisnya juga mengandung variabel. Satu hal penting yang harus selalu diingat adalah semua akar-akar dari penyelesaian persamaan logaritma harus memenuhi semua syarat logaritma yang ada, ini artinya belum tentu semua akar-akar yang kita peroleh adalah sebagai solusi dari persamaannya.</description>
+    </item>
+    
+    <item>
+      <title>Fungsi Logaritma</title>
+      <link>https://www.sinmat.my.id/fungsi-logaritma/</link>
+      <pubDate>Tue, 16 Nov 2021 18:54:36 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/fungsi-logaritma/</guid>
+      <description>Fungsi logaritma adalah suatu fungsi yang memuat bentuk logaritma didalamnya. Sebelumnya kita telah belajar tentang fungsi eksponen yaitu fungsi yang berkorespondensi satu-satu, sehingga fungsi eksponen mempunyai invers. Invers dari fungsi eksponen inilah yang dinamakan fungsi logaritma.
+Dari fungsi $f : x \rightarrow a^x$ yang mempunyai domain bilangan real dan range bilangan real positif. Fungsi tersebut bijektif dari $R$ ke $R^+$ sehingga mempunyai invers $f^{-1} : R^+\rightarrow R$ yaitu setiap $x\in R$ mempunyai peta tunggal $y\in R^+$ dan sebaliknya $y\in R^+$ mempunyai peta tunggal $x\in R$.</description>
+    </item>
+    
+    <item>
+      <title>Sifat-sifat Operasi Logaritma</title>
+      <link>https://www.sinmat.my.id/sifat-sifat-operasi-logaritma/</link>
+      <pubDate>Tue, 16 Nov 2021 18:54:09 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/sifat-sifat-operasi-logaritma/</guid>
+      <description>Ada 7 sifat pada logaritma ini yang akan membantu kamu dalam memecahkan masalah yang berkaitan dengan logaritma yaitu :
+Penjumlahan dan Pengurangan Sifat 1 $$^a\log x &amp;#43; ^a\log y = ^a\log xy$$Contoh :
+Sederhanakanlah !
+$^2\log 4 + 2\log 8$ $^3\log \frac{1}{9}$ + $^3\log 81$ $^2\log 2\sqrt{2}$+ $^2\log 4\sqrt{2}$ Jawab :
+$^2\log 4 + ^2\log 8 = ^2\log 4 . 8 = ^2\log 32 = 5$ $^3\log \frac{1}{9} + ^3\log 81= ^3\log \frac{1}{9} .</description>
+    </item>
+    
+    <item>
+      <title>Pengertian Logaritma</title>
+      <link>https://www.sinmat.my.id/pengertian-logaritma/</link>
+      <pubDate>Tue, 16 Nov 2021 18:50:18 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/pengertian-logaritma/</guid>
+      <description>Setelah kemaren belajar tentang fungsi eksponen kali ini kita akan melanjutkan materi tentang logaritma. Apa itu logaritma? Perhatikan masalah berikut!
+Waktu paruh sebuah unsur radioaktif adalah 2 hari. Berapa lama diperlukan oleh 64 g unsur ini untuk meluruh menjadi tinggal 2 g?
+Dari permasalahan diatas dapat diselesaikan seperti berikut
+$f(x)=64.{{\left( \frac{1}{2} \right)}^{x}}$
+$\Leftrightarrow 2=64.{{\left( \frac{1}{2} \right)}^{x}}$
+$\Leftrightarrow \frac{2}{64}={{\left( \frac{1}{2} \right)}^{x}}$
+$\Leftrightarrow \frac{1}{32}={{\left( \frac{1}{2} \right)}^{x}}$
+$\Leftrightarrow x{{=}^{\frac{1}{2}}}\log \left( \frac{1}{32} \right)$
+Perhatikan penyelesaian pada baris ke-4 dan ke-5.</description>
+    </item>
+    
+    <item>
+      <title>Pertidaksamaan Eksponen Lanjut</title>
+      <link>https://www.sinmat.my.id/pertidaksamaan-eksponen-lanjut/</link>
+      <pubDate>Mon, 06 Sep 2021 16:53:51 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/pertidaksamaan-eksponen-lanjut/</guid>
+      <description>Pertidaksamaan eksponen lanjut Pertidaksamaan eksponen lanjut maksudnya adalah pertidaksamaan eksponen yang bentuknya selain bentuk pertidaksamaan eksponen sederhana. Misalkan bentuk $A{{\left( {{a}^{f(x)}} \right)}^{m}}+B\left( {{a}^{f(x)}} \right)+C\le 0$. Untuk menyelesaikan bentuk ini, biasanya diarahkan ke suatu persamaan polinomial atau persamaan kuadrat dengan memisalkan ${{a}^{f(x)}}=p$.
+Contoh Tentukan himpunan penyelesaian dari
+${{3}^{2x}}-{{4.3}^{x+1}}+27&amp;lt;0$ ${{3}^{-2x+2}}-{{28.3}^{-x}}+3\ge 0$ Alternatif Penyelesaian ${{3}^{2x}}-{{4.3}^{x+1}}+27&amp;lt;0$
+$ {{\left( {{3}^{x}} \right)}^{2}}-4\left( {{3}^{x}} \right)3+27&amp;lt;0 \newline {{\left( {{3}^{x}} \right)}^{2}}-12\left( {{3}^{x}} \right)+27&amp;lt;0 $
+Misalkan ${{3}^{x}}=p$, maka
+${{p}^{2}}-12p+27&amp;lt;0 \newline (p-3)(p-9)&amp;lt;0 \newline $ Asumsi $p=3$ atau $p=9$</description>
+    </item>
+    
+    <item>
+      <title>Pertidaksamaan Eksponen Sederhana</title>
+      <link>https://www.sinmat.my.id/pertidaksamaan-eksponen-sederhana/</link>
+      <pubDate>Mon, 06 Sep 2021 16:53:34 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/pertidaksamaan-eksponen-sederhana/</guid>
+      <description>Setelah kita mempelajari tentang persamaan eksponen, sekarang pembahasan akan dilanjutkan dengan pertidaksamaan eksponen. Pertidaksamaan pasti memuat tanda $&amp;lt;,&amp;gt;,\le ,\ge $. Untuk menyelesaikan pertidaksamaan eksponen, kita harus benar-benar memahami sifat-sifat eksponen dan persamaan eksponen. Pertidaksamaan eksponen itu sendiri ada dua bentuk, yaitu pertidaksamaan eksponen sederhana dan pertidaksamaan eksponen lanjut.
+Pertidaksamaan eksponen sederhana. Pertidaksamaan eksponen sederhana maksudnya pertidaksamaan yang ruas kanan dan ruas kiri tanda pertidaksamaan sudah berbentuk pangkat. Dari berbagai bentuk pertidaksamaan eksponen yang ada, cara penyelesaiannya mengikuti langkah-langkah:</description>
+    </item>
+    
+    <item>
+      <title>Persamaan Eksponen Lanjut</title>
+      <link>https://www.sinmat.my.id/persamaan-eksponen-lanjut/</link>
+      <pubDate>Tue, 31 Aug 2021 20:07:26 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/persamaan-eksponen-lanjut/</guid>
+      <description>Persamaan eksponen lanjut. Persamaan Bentuk ${{a}^{f(x)}}={{b}^{f(x)}}$ Penyelesaian persamaan berbentuk ${{a}^{f(x)}}={{b}^{f(x)}}$ mengikuti aturan berikut : Jika $${{a}^{f(x)}}={{b}^{f(x)}}$$ dimana a &amp;gt; 0 ,b &amp;gt; 0 dan a ≠ 1, b ≠ 1, maka $$f(x)=0$$Contoh
+Tentukan himpunan penyelesaian dari
+${{6}^{{{x}^{2}}-5x+6}}={{7}^{{{x}^{2}}-5x+6}}$ ${{7}^{8}}{{.3}^{{{x}^{2}}-8}}={{3}^{2x}}{{.7}^{{{x}^{2}}-2x}}$ Alternatif Penyelesaian
+${{6}^{{{x}^{2}}-5x+6}}={{7}^{{{x}^{2}}-5x+6}}$
+Maka
+${{x}^{2}}-5x+6=0 \newline (x-3)(x-2)=0$
+$x=3$ atau $x=2$
+Jadi himpunan penyelesaiannya adalah {2, 3}
+${{7}^{8}}{{.3}^{{{x}^{2}}-8}}={{3}^{2x}}{{.7}^{{{x}^{2}}-2x}}$ $\frac{{{3}^{{{x}^{2}}-8}}}{{{3}^{2x}}}=\frac{{{7}^{{{x}^{2}}-2x}}}{{{7}^{8}}} \newline {{3}^{{{x}^{2}}-2x-8}}={{7}^{{{x}^{2}}-2x-8}}$
+Maka
+${{x}^{2}}-2x-8=0 \newline (x+2)(x-4)=0$
+$x=-2$ atau $x=4$
+Jadi himpunan penyelesaiannya adalah {-2, 4}</description>
+    </item>
+    
+    <item>
+      <title>Persamaan Eksponen Sederhana</title>
+      <link>https://www.sinmat.my.id/persamaan-eksponen-sederhana/</link>
+      <pubDate>Tue, 31 Aug 2021 20:01:26 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/persamaan-eksponen-sederhana/</guid>
+      <description>Setelah kita mempelajari tentang fungsi eksponen, sekarang pembahasan akan diperluas tentang persamaan eksponen dan pertidaksamaan eksponen. Persamaan eksponen adalah persamaan yang eksponennya (pangkatnya) memuat perubah x atau persamaan yang bilangan pokoknya memuat perubah x. Persamaan eksponen itu sendiri ada dua bentuk, yaitu persamaan eksponen sederhana dan persamaan eksponen lanjut.
+Persamaan eksponen sederhana maksudnya persamaan yang hanya menyamakan nilai basisnya dan langsung bisa menentukan penyelesaiannya. Dari berbagai bentuk persamaan eksponen yang ada, cara penyelesaiannya bergantung pada bentuknya.</description>
+    </item>
+    
+    <item>
+      <title>Grafik Fungsi Eksponen</title>
+      <link>https://www.sinmat.my.id/grafik-fungsi-eksponen/</link>
+      <pubDate>Tue, 31 Aug 2021 17:01:26 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/grafik-fungsi-eksponen/</guid>
+      <description>Grafik Fungsi Eksponen Menggambar sketsa grafik fungsi eksponen dapat dilakukan dengan langkah-langkah berikut
+Menentukan titik-titik bantu dengan membuat daftar atau tabel yang menunjukkan hubungan antara nilai-nilai x dengan nilai-nilai $y=f(x)=k.{{a}^{x}}$ . Titik-titik dengan koordinat (x, y) yang diperoleh digambarkan pada bidang kartesius, kemudian dihubungkan dengan kurva mulus, sehingga diperoleh grafik fungsi eksponen $y=f(x)=k.{{a}^{x}}$ Untuk lebih jelasnya, perhatikan contoh berikut.
+Contoh 1 Lukislah grafik fungsi $f(x)={{2}^{x}}$ untuk x bilangan real
+penyelesaian</description>
+    </item>
+    
+    <item>
+      <title>Pengertian Fungsi Eksponen</title>
+      <link>https://www.sinmat.my.id/pengertian-fungsi-eksponen/</link>
+      <pubDate>Thu, 26 Aug 2021 14:07:38 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/pengertian-fungsi-eksponen/</guid>
+      <description>Apa itu fungsi eksponen?
+Fungsi eksponensial adalah fungsi matematika, yang digunakan dalam banyak situasi dunia nyata. Hal ini terutama digunakan untuk menemukan peluruhan eksponensial atau pertumbuhan eksponensial atau untuk menghitung investasi, populasi model dan sebagainya. Untuk memahami fungsi eksponen, coba Kalian perhatikan masalah berikut.
+Dalam suatu tangki air mula-mula berisi 8 bakteri. Setiap Bakteri dapat membelah diri setiap 24 jam atau sehari. Bagaimanakah menuliskan banyak banyak bakteri tersebut setelah beberapa hari dalam bahasa yang sederhana?</description>
+    </item>
+    
+    <item>
+      <title>Konsep Dasar Eksponen dan Sifat-sifatnya</title>
+      <link>https://www.sinmat.my.id/konsep-dasar-eksponen-dan-sifat-sifatnya/</link>
+      <pubDate>Fri, 30 Jul 2021 22:59:13 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/konsep-dasar-eksponen-dan-sifat-sifatnya/</guid>
+      <description>Apa itu Eksponen? Pada tulisan ini kita akan membahas tentang eksponen dan sifat-sifatnya. Konsep eksponen ini Sudah dipelajari di jenjang SMP materi ini adalah materi prasyarat untuk kalian belajar fungsi eksponen di kelas 10 jenjang SMA. Eksponen banyak digunakan oleh para peneliti untuk memudahkan menulis angka. Misalkan jarak dari bumi ke bulan itu kan jauh sekali ya, panjang sekali. Nah itu, biasanya dituliskan dalam bentuk eksponen. Apa itu eksponen dan bagaimana sifat-sifatnya berikut ulasannya.</description>
+    </item>
+    
+    <item>
+      <title>Pendahuluan Fungsi Eksponen dan Logaritma</title>
+      <link>https://www.sinmat.my.id/pendahuluan-fungsi-eksponen-dan-logaritma/</link>
+      <pubDate>Wed, 28 Jul 2021 22:34:56 +0700</pubDate>
+      
+      <guid>https://www.sinmat.my.id/pendahuluan-fungsi-eksponen-dan-logaritma/</guid>
+      <description>Fungsi eksponensial banyak digunakan dalam kehidupan sehari-hari. Contohnya adalah suku bunga, pertumbuhan, peluruhan, dan masalah perkembangbiakan bakteri dan juga virus. Seperti virus covid-19 yang saat ini sedang menjangkit negara kita. Banyak yang memberitakan bahwa covid-19 ini tumbuh secara eksponensial seperti berita berikut ini:
+https://kumparan.com/melysantoso/mencoba-memahami-mengapa-infeksi-covid-19-bergerak-secara-eksponensial-1tB2orKcWyr↝Simulasi juga dilakukan oleh peneliti dari alumni jurusan matematika UI. Jumlah orang-orang yang tertular jika pemerintah tidak melakukan intervensi dalam meminimalisir interaksi antar manusia akan tampak seperti grafik fungsi eksponen berikut: Bahaya Covid-19 jika kita mengabaikan Social Distancing dapat dijelaskan dengan fungsi ekponen seperti pada video ini: Oleh karena itu mari kita jaga diri untuk menghadapi kehidupan saat ini.</description>
+    </item>
+    
+  </channel>
+</rss>
