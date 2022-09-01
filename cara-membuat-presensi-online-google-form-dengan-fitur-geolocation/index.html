@@ -8,7 +8,7 @@
 
 
 
-<link rel="stylesheet" href="/css/main.min.40da33f81649bd688bd712a188ee10c8a027058e05f9887b4cf5f3b0ec243491.css" integrity="sha256-QNoz+BZJvWiL1xKhiO4QyKAnBY4F+Yh7TPXzsOwkNJE=" />
+<link rel="stylesheet" href="/css/main.min.f6f205d535da0db38c04262ba800c1af2f6cef4f491578975ed4044b4bc122dd.css" integrity="sha256-9vIF1TXaDbOMBCYrqADBry9s709JFXiXXtQES0vBIt0=" />
 </head>
     <body class="bg-slate-50 text-slate-800 dark:bg-slate-900 dark:text-white transition-colors"><nav class="backdrop-blur transition-colors duration-500 supports-backdrop-blur:bg-white/95 bg-gradient-to-r from-sky-700/90 to-blue-700/90 dark:from-sky-900 dark:to-blue-900/85 sticky top-0 z-40 shadow-md">
     <div class="container max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -274,7 +274,8 @@
     </div>
     
   </nav>
-<aside id="side-menu" class="bg-slate-700/80 text-slate-700 dark:text-slate-100 fixed top-0 left-0 w-screen h-screen z-50" x-data="{sideMenuOpen: false, moreOpen: false}" @sidemenu.window="sideMenuOpen = true" x-show="sideMenuOpen" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition ease-in duration-300" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" style=""><div class="bg-white dark:bg-slate-700 w-96 h-screen p-4" @click.away="sideMenuOpen = false" x-show="sideMenuOpen" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="-translate-x-96" x-transition:enter-end="translate-x-0" x-transition:leave="transition ease-in duration-300" x-transition:leave-start="translate-x-0" x-transition:leave-end="-translate-x-96" style="">
+<aside id="side-menu" class="bg-slate-700/80 text-slate-700 dark:text-slate-100 fixed top-0 left-0 w-screen h-screen z-50" x-data="{sideMenuOpen: false, moreOpen: false}" @sidemenu.window="sideMenuOpen = true" x-show="sideMenuOpen" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition ease-in duration-300" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" style="display:none">
+  <div class="bg-white dark:bg-slate-700 w-10/12 h-screen p-4" @click.away="sideMenuOpen = false" x-show="sideMenuOpen" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="-translate-x-96" x-transition:enter-end="translate-x-0" x-transition:leave="transition ease-in duration-300" x-transition:leave-start="translate-x-0" x-transition:leave-end="-translate-x-96" style="">
     <header class="flex justify-between">
     <h1 class="font-bold text-2xl">Menu</h1>
     <button aria-label="close side menu" type="button" class="p-1 rounded-full bg-slate-200 dark:bg-slate-600 hover:bg-red-400/75 dark:hover:bg-red-400/75" @click="sideMenuOpen = false">
@@ -493,7 +494,9 @@
 </a></div>
         </template></nav>
   </div>
-</aside><div class="container px-0 lg:px-6 lg:max-w-7xl mx-auto grid grid-cols-4 md:grid-cols-12 my-4 mb:my-8 lg:my-16">
+</aside>
+
+<div class="container px-0 lg:px-6 lg:max-w-7xl mx-auto grid grid-cols-4 md:grid-cols-12 my-4 mb:my-8 lg:my-16">
 <div class="col-span-4 md:col-span-8"><div class="col-span-4 md:col-span-8">
 <article class="shadow-md p-4 md:p-6 lg:p-8 xl:p-16 relative bg-white dark:bg-slate-800 rounded-xl prose max-w-none lg:prose-xl prose-p:text-justify prose-slate dark:prose-invert prose-headings:font-sans prose-headings:tracking-tight prose-p:font-serif prose-ol:font-serif prose-ul:font-serif prose-pre:dark:border prose-pre:dark:border-slate-700"><div class="post-panel-wrapper">
   <div class="d-flex flex-column component rounded post-panel">
@@ -552,7 +555,7 @@
 </a>
 </strong></li>
 <li>Jika belum login, login terlebih dahulu kemudian akan muncul seperti tampilan gambar berikut
-<img class="img-fluid lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form.jpg" loading="lazy"
    width="600" height="133"
    />
 
@@ -560,7 +563,7 @@
 <li>Untuk membuat formulir baru, klik pada bagian kotak Kosong dengan icon tambah</li>
 <li>Kemudian, isi bagian-bagian dari formulir. Contohnya seperti ini,
 <br>
-<img class="img-fluid lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-2.png" loading="lazy"
+<img class="mx-auto lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-2.png" loading="lazy"
    width="400" height="1005"
    />
 
@@ -571,19 +574,19 @@ Unique ID digunakan untuk verifikasi</li>
 <h3 id="membuat-fitur-geolocation">Membuat Fitur GeoLocation</h3>
 <ol>
 <li>Buat spreadsheet pada tab jawaban
-<img class="img-fluid lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-3.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-3.jpg" loading="lazy"
    width="300" height="94"
    />
 
 
-<img class="img-fluid lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-4.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-4.jpg" loading="lazy"
    width="300" height="174"
    />
 
 </li>
 <li>Setelah masuk ke google spreeadsheet buat sheet baru dan beri nama dengan misalkan &ldquo;INFO RESPONDER&rdquo;</li>
 <li>Klik alat pilih editor script
-<img class="img-fluid lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-5.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-5.jpg" loading="lazy"
    width="400" height="353"
    />
 
@@ -635,20 +638,20 @@ Unique ID digunakan untuk verifikasi</li>
 </span></span><span class="line"><span class="ln">2</span><span class="cl">35  var ss = SpreadsheetApp.openByUrl(url);
 </span></span><span class="line"><span class="ln">3</span><span class="cl">36  var ws = ss.getSheetByName(&#34;#GANTI DENGAN SHEET2 YANG DIBUAT&#34;);
 </span></span></code></pre></div>untuk alamat spreadsheet silahkan buka spreadsheet kemudian pilih bagikan kepada siapa saja yang memiliki link, set sebagai editor 
-<img class="img-fluid lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-6.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-6.jpg" loading="lazy"
    width="300" height="120"
    />
 
 </li>
 <li>Kemudian jangan lupa untuk menyimpannya dengan klik Ctrl + S</li>
 <li>Kedua, buat file skrip baru dengan mengklik menu File » Baru » File HTML
-<img class="img-fluid lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-7.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-7.jpg" loading="lazy"
    width="300" height="292"
    />
 
 </li>
 <li>Beri nama file baru ini dengan nama <strong>Index</strong> (I kapital ya) kemudian klik <strong>OK</strong>
-<img class="img-fluid lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-8.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-8.jpg" loading="lazy"
    width="300" height="149"
    />
 
@@ -712,7 +715,7 @@ Unique ID digunakan untuk verifikasi</li>
 </span></span><span class="line"><span class="ln">56</span><span class="cl"><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="ln">57</span><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 </span></span></code></pre></div>Pada baris 141  <code>&lt;a type=&quot;button&quot; class=&quot;btn btn-primary&quot; href='##GANTI DENGAN ALAMAT GOOGLE FORM' target='_blank'&gt;Mulai&lt;/a&gt;</code> ganti dengan alamat google form
-<img class="img-fluid lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-9.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-9.jpg" loading="lazy"
    width="300" height="170"
    />
 
@@ -720,13 +723,13 @@ Unique ID digunakan untuk verifikasi</li>
 hal ini dilakukan untuk mengarahkan ke form kita setelah kita masuk ke lokasi index.</li>
 <li>Setelah selesai, jangan lupa menyimpannya</li>
 <li>Selanjutnya kita akan mem-build skrip ini menjadi sebuah aplikasi web. Caranya klik menu <strong>Publikasikan » Terapkan sebagai aplikasi web</strong> … 
-<img class="img-fluid lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-11.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-11.jpg" loading="lazy"
    width="300" height="100"
    />
 
 </li>
 <li>Akan muncul tampilan seperti ini, pertama ubahlah pada bagian <em>Who has access to the app</em> menjadi <em>Anyone, even anonymous</em>. Klik <strong>Deploy</strong>
-<img class="img-fluid lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-10.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-10.jpg" loading="lazy"
    width="300" height="265"
    />
 
@@ -735,7 +738,7 @@ hal ini dilakukan untuk mengarahkan ke form kita setelah kita masuk ke lokasi in
 <li>Pilih akun google kita, dan ketika muncul seperti ini, klik Lanjutan dan Buka Coba</li>
 <li>Dan klik Izinkan ketika aplikasi yang akan kita buat ingin mengakses akun google kita</li>
 <li>Setelah selesai, akan muncul link aplikasi web kita, link inilah yang akan kita bagikan kepada pengguna/siswa
-<img class="img-fluid lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-12.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-12.jpg" loading="lazy"
    width="300" height="160"
    />
 
@@ -744,19 +747,19 @@ hal ini dilakukan untuk mengarahkan ke form kita setelah kita masuk ke lokasi in
 <h3 id="uji-coba">Uji Coba</h3>
 <ol>
 <li>Pergi ke alamat link yang didapat tadi melalui web browser. akan Muncul tampilan seperti gambar
-<img class="img-fluid lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-13.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-13.jpg" loading="lazy"
    width="600" height="304"
    />
 
 </li>
 <li>Lihat pada spreadsheet kita cek apakah masuk ke form dan info responder
-<img class="img-fluid lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-15.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-15.jpg" loading="lazy"
    width="600" height="82"
    />
 
 </li>
 <li>Kita bisa menambahkan rumus index match pada spreadsheet kita untuk mencari alamat atau koordinat lokasinya misalkan <code>=INDEX('INFO RESPONDER'!$F$1:$F$1000;MATCH(C2;'INFO RESPONDER'!$A$1:$A$1000;0))</code>
-<img class="img-fluid lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-14.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="Membuat Google Form" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/tutorial/google-form/membuat-google-form-14.jpg" loading="lazy"
    width="720" height="118"
    />
 
@@ -876,6 +879,9 @@ hal ini dilakukan untuk mengarahkan ke form kita setelah kita masuk ke lokasi in
   <ul>
     
       
+      
+      
+      
       <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
         <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://mazguru.github.io/pembatik/drb/"><img class="w-4 h-4" alt="DRB" src="https://mazguru.github.io/header/catatan-drb.jpg" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
             <p class="align-middle">
@@ -900,9 +906,6 @@ hal ini dilakukan untuk mengarahkan ke form kita setelah kita masuk ke lokasi in
           </p>
         </a>
       </li>
-      
-      
-      
       
       <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
         <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://mazguru.github.io/tutorial/quizizz/"><img class="w-4 h-4" alt="Quizizz" src="https://mazguru.github.io/cover/quizizz.png" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>

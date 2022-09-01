@@ -8,7 +8,7 @@
 
 
 
-<link rel="stylesheet" href="/css/main.min.40da33f81649bd688bd712a188ee10c8a027058e05f9887b4cf5f3b0ec243491.css" integrity="sha256-QNoz+BZJvWiL1xKhiO4QyKAnBY4F+Yh7TPXzsOwkNJE=" />
+<link rel="stylesheet" href="/css/main.min.f6f205d535da0db38c04262ba800c1af2f6cef4f491578975ed4044b4bc122dd.css" integrity="sha256-9vIF1TXaDbOMBCYrqADBry9s709JFXiXXtQES0vBIt0=" />
 <link rel="stylesheet" href="https://mazguru.github.io/css/katex.min.c19918c18f3c537b9f533f097f2e2c3e5e4b5de4dce46f32657fdd2ae5ea296b.css" integrity="sha256-wZkYwY88U3ufUz8Jfy4sPl5LXeTc5G8yZX/dKuXqKWs=" crossorigin="anonymous"></head>
     <body class="bg-slate-50 text-slate-800 dark:bg-slate-900 dark:text-white transition-colors"><nav class="backdrop-blur transition-colors duration-500 supports-backdrop-blur:bg-white/95 bg-gradient-to-r from-sky-700/90 to-blue-700/90 dark:from-sky-900 dark:to-blue-900/85 sticky top-0 z-40 shadow-md">
     <div class="container max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -274,7 +274,8 @@
     </div>
     
   </nav>
-<aside id="side-menu" class="bg-slate-700/80 text-slate-700 dark:text-slate-100 fixed top-0 left-0 w-screen h-screen z-50" x-data="{sideMenuOpen: false, moreOpen: false}" @sidemenu.window="sideMenuOpen = true" x-show="sideMenuOpen" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition ease-in duration-300" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" style=""><div class="bg-white dark:bg-slate-700 w-96 h-screen p-4" @click.away="sideMenuOpen = false" x-show="sideMenuOpen" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="-translate-x-96" x-transition:enter-end="translate-x-0" x-transition:leave="transition ease-in duration-300" x-transition:leave-start="translate-x-0" x-transition:leave-end="-translate-x-96" style="">
+<aside id="side-menu" class="bg-slate-700/80 text-slate-700 dark:text-slate-100 fixed top-0 left-0 w-screen h-screen z-50" x-data="{sideMenuOpen: false, moreOpen: false}" @sidemenu.window="sideMenuOpen = true" x-show="sideMenuOpen" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition ease-in duration-300" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" style="display:none">
+  <div class="bg-white dark:bg-slate-700 w-10/12 h-screen p-4" @click.away="sideMenuOpen = false" x-show="sideMenuOpen" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="-translate-x-96" x-transition:enter-end="translate-x-0" x-transition:leave="transition ease-in duration-300" x-transition:leave-start="translate-x-0" x-transition:leave-end="-translate-x-96" style="">
     <header class="flex justify-between">
     <h1 class="font-bold text-2xl">Menu</h1>
     <button aria-label="close side menu" type="button" class="p-1 rounded-full bg-slate-200 dark:bg-slate-600 hover:bg-red-400/75 dark:hover:bg-red-400/75" @click="sideMenuOpen = false">
@@ -493,7 +494,9 @@
 </a></div>
         </template></nav>
   </div>
-</aside><div class="container px-0 lg:px-6 lg:max-w-7xl mx-auto grid grid-cols-4 md:grid-cols-12 my-4 mb:my-8 lg:my-16">
+</aside>
+
+<div class="container px-0 lg:px-6 lg:max-w-7xl mx-auto grid grid-cols-4 md:grid-cols-12 my-4 mb:my-8 lg:my-16">
 <div class="col-span-4 md:col-span-8"><div class="col-span-4 md:col-span-8">
 <article class="shadow-md p-4 md:p-6 lg:p-8 xl:p-16 relative bg-white dark:bg-slate-800 rounded-xl prose max-w-none lg:prose-xl prose-p:text-justify prose-slate dark:prose-invert prose-headings:font-sans prose-headings:tracking-tight prose-p:font-serif prose-ol:font-serif prose-ul:font-serif prose-pre:dark:border prose-pre:dark:border-slate-700"><div class="post-panel-wrapper">
   <div class="d-flex flex-column component rounded post-panel">
@@ -541,19 +544,19 @@
     <div class="mb-2"><h2 id="1-pengertian-titik-garis-bidang-dan-bangun-ruang">1. Pengertian Titik, Garis, Bidang, dan Bangun Ruang</h2>
 <p>Sering kita mendengar istilah titik, garis, dan bidang baik dalam kehidupan sehari-hari maupun didalam pembelajaran di sekolah terutama mata pelajaran Matematika. Ketiga istilah tersebut merupakan unsur dasar dalam geometri. Ketiga unsur tersebut termasuk istilah yang tidak didefinisikan <em>(undefined term)</em> karena secara intuitif dianggap sebagai sesuatu yang mudah dijelaskan.</p>
 <p><strong>Titik</strong> merupakan sesuatu yang punya  kedudukan,  tetapi titik tidak punya ukuran. Titik direpresentasikan sebagai noktah/dot (“.”) dan dinamai dengan huruf kapital. Pada gambar berikut diperlihatkan dua buah titik, yaitu titik B dan titik Q.
-<img class="img-fluid lazyload" alt="titik" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/titik.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="titik" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/titik.jpg" loading="lazy"
    width="72" height="53"
    />
 
 </p>
 <p><strong>Garis</strong> merupakan sesuatu/benda berdimensi satu dan hanya mempunyai panjang tapi tidak mempunyai lebar. Garis diberi nama dengan  menggunakan huruf kecil seperti g,h,k, dan seterusnya, atau AB, AC, BC, dan seterusnya. Pada gambar berikut diperlihatkan dua buah garis, yaitu garis h dan ruas garis AC.
-<img class="img-fluid lazyload" alt="garis" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/garis.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="garis" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/garis.jpg" loading="lazy"
    width="273" height="53"
    />
 
 </p>
 <p><strong>Bidang</strong> (bidang datar) merupakan sesuatu/benda berdimensi dua yang mempunyai ukuran panjang dan lebar.  Bidang dapat dinamai dengan cara menuliskan di pojok bidang  dengan huruf α, β, γ atau dengan menuliskan titik-titik sudut bidang itu.
-<img class="img-fluid lazyload" alt="bidang" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/bidang.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="bidang" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/bidang.jpg" loading="lazy"
    width="208" height="62"
    />
 
@@ -585,7 +588,7 @@
 Sebuah titik dikatakan terletak pada  garis, jika titik tersebut dapat dilalui  oleh  garis. Perhatikan gambar 2.5.</li>
 <li>Titik di Luar Garis
 Sebuah titik dikatakan terletak di luar garis, jika titik tersebut tidak dapat dilalui garis. Perhatikan gambar 2.6
-<img class="img-fluid lazyload" alt="Kedudukan Titik dan Garis" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/kedudukan-titik-garis.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="Kedudukan Titik dan Garis" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/kedudukan-titik-garis.jpg" loading="lazy"
    width="415" height="139"
    />
 
@@ -598,7 +601,7 @@ Sebuah titik dikatakan terletak pada  bidang, jika titik tersebut dapat dilalui 
 <li>Titik di Luar Bidang 
 Sebuah titik dikatakan terletak di luar bidang, jika titik tersebut tidak dapat dilalui  oleh bidang.</li>
 </ol>
-<p><img class="img-fluid lazyload" alt="Kedudukan Titik dan Bidang" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/kedudukan-titik-bidang.jpg" loading="lazy"
+<p><img class="mx-auto lazyload" alt="Kedudukan Titik dan Bidang" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/kedudukan-titik-bidang.jpg" loading="lazy"
    width="177" height="123"
    />
 
@@ -608,7 +611,7 @@ Sebuah titik dikatakan terletak di luar bidang, jika titik tersebut tidak dapat 
 <h2 id="4-kedudukan-dua-garis">4. Kedudukan Dua Garis</h2>
 <ol>
 <li>Dua Garis Sejajar
-Dua buah garis dikatakan sejajar, jika dua buah garis tersebut sebidang dan  tidak mempunyai titik persekutuan. <img class="img-fluid lazyload" alt="Dua garis Sejajar" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/garis-sejajar.jpg" loading="lazy"
+Dua buah garis dikatakan sejajar, jika dua buah garis tersebut sebidang dan  tidak mempunyai titik persekutuan. <img class="mx-auto lazyload" alt="Dua garis Sejajar" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/garis-sejajar.jpg" loading="lazy"
    width="227" height="154"
    />
 
@@ -619,7 +622,7 @@ Dua buah garis dikatakan sejajar, jika dua buah garis tersebut sebidang dan  tid
 Dua buah garis dikatakan berpotongan, jika dua buah garis tersebut sebidang dan mempunyai satu titik persekutuan, yang dinamakan titik potong. Perhatikan gambar diatas.</li>
 <li>Dua Garis Berimpit
 Dua garis dikatakan berimpit, jika jarak antara kedua garis tersebut adalah nol.
-<img class="img-fluid lazyload" alt="Dua garis Berimpit" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/garis-berimpit.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="Dua garis Berimpit" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/garis-berimpit.jpg" loading="lazy"
    width="205" height="120"
    />
 
@@ -628,7 +631,7 @@ Dua garis dikatakan berimpit, jika jarak antara kedua garis tersebut adalah nol.
 <center>garis $k$ berimpit dengan garis $l$</center> </li>
 <li>Dua Garis Bersilangan
 Dua buah garis dikatakan  bersilangan, jika dua buah garis tersebut tidak sebidang atau melalui kedua garis tersebut tidak dapat dibuat sebuah bidang datar.
-<img class="img-fluid lazyload" alt="Dua garis Bersilangan" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/garis-bersilangan.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="Dua garis Bersilangan" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/garis-bersilangan.jpg" loading="lazy"
    width="199" height="165"
    />
 
@@ -639,7 +642,7 @@ Dua buah garis dikatakan  bersilangan, jika dua buah garis tersebut tidak sebida
 <h2 id="5-kedudukan-garis-dan-bidang">5. Kedudukan Garis dan Bidang</h2>
 <ol>
 <li>Garis Terletak pada Bidang
-Sebuah garis dikatakan terletak pada bidang, jika setiap titik pada garis tersebut juga terletak pada bidang. <img class="img-fluid lazyload" alt="kedudukan garis bidang" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/garis-bidang.jpg" loading="lazy"
+Sebuah garis dikatakan terletak pada bidang, jika setiap titik pada garis tersebut juga terletak pada bidang. <img class="mx-auto lazyload" alt="kedudukan garis bidang" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/garis-bidang.jpg" loading="lazy"
    width="200" height="119"
    />
 
@@ -650,7 +653,7 @@ Sebuah garis dikatakan terletak pada bidang, jika setiap titik pada garis terseb
 Sebuah garis dikatakan sejajar bidang, jika garis dan bidang tidak mempunyai satu pun titik persekutuan.</li>
 <li>Garis Memotong (Menembus) Bidang
 Sebuah garis dikatakan memotong (menembus) bidang, jika garis dan bidang mempunyai satu titik persekutuan yang dinamakan titik potong atau titik tembus. 
-<img class="img-fluid lazyload" alt="garis menebus bidang" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/garis-menebus-bidang.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="garis menebus bidang" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/garis-menebus-bidang.jpg" loading="lazy"
    width="200" height="159"
    />
 
@@ -664,7 +667,7 @@ Sebuah garis dikatakan memotong (menembus) bidang, jika garis dan bidang mempuny
 Dua bidang dikatakan berimpit, jika setiap titik terletak pada kedua bidang.</li>
 <li>Dua Bidang Sejajar
 Dua bidang dikatakan sejajar, jika kedua bidang tersebut tidak mempunyai satu pun titik persekutuan. 
-<img class="img-fluid lazyload" alt="bidang sejajar" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/bidang-sejajar.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="bidang sejajar" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/bidang-sejajar.jpg" loading="lazy"
    width="200" height="179"
    />
 
@@ -673,7 +676,7 @@ Dua bidang dikatakan sejajar, jika kedua bidang tersebut tidak mempunyai satu pu
 <center>Bidang BCGH dan ADHE sejajar</center> </li>
 <li>Dua Bidang Berpotongan
 Dua bidang dikatakan berpotongan, jika kedua bidang tersebut mempunyai sebuah garis persekutuan. 
-<img class="img-fluid lazyload" alt="bidang berpotongan" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/bidang-berpotongan.png" loading="lazy"
+<img class="mx-auto lazyload" alt="bidang berpotongan" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/bidang-berpotongan.png" loading="lazy"
    width="172" height="121"
    />
 
@@ -683,7 +686,7 @@ Dua bidang dikatakan berpotongan, jika kedua bidang tersebut mempunyai sebuah ga
 </ol>
 <h3 id="contoh-melukis-garis-bidang">Contoh Melukis garis, Bidang</h3>
 <p>Pada gambar berikut ini, titik Pdan Q pada bidang DCFE, titik R pada bidang ABCD. Lukislah garis potong antara bidang ABCD dan bidang yang melalui titik-titik P,Q, dan R. Lukislah juga garis potong antara bidang DCFE dan bidang yang melalui titik-titik P, Q, dan R!
-<img class="img-fluid lazyload" alt="Contoh Melukis garis, Bidang" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/soal-melukis-garis-bidang.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="Contoh Melukis garis, Bidang" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/soal-melukis-garis-bidang.jpg" loading="lazy"
    width="200" height="152"
    />
 
@@ -695,7 +698,7 @@ Dua bidang dikatakan berpotongan, jika kedua bidang tersebut mempunyai sebuah ga
 <li>Terbentuklah bidang PQR. Bidang ini berimpit dengan bidang UQST.</li>
 <li>Garis g pada gambar merupakan garis potong antara bidang DCFE dan bidang yang melalui titik-titik P, Q, dan R.</li>
 <li>Garis l pada gambar merupakan garis potong antara bidang ABCD dan bidang yang melalui titik-titik P, Q, dan R.
-<img class="img-fluid lazyload" alt="Hasil lukis" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/hasil-lukis-kedudukan-garis.jpg" loading="lazy"
+<img class="mx-auto lazyload" alt="Hasil lukis" src="/img/placeholder.svg" data-src="https://mazguru.github.io/images/matsma/dimensi3/hasil-lukis-kedudukan-garis.jpg" loading="lazy"
    width="200" height="178"
    />
 
@@ -837,6 +840,9 @@ Dua bidang dikatakan berpotongan, jika kedua bidang tersebut mempunyai sebuah ga
   <ul>
     
       
+      
+      
+      
       <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
         <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://mazguru.github.io/pembatik/drb/"><img class="w-4 h-4" alt="DRB" src="https://mazguru.github.io/header/catatan-drb.jpg" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
             <p class="align-middle">
@@ -861,9 +867,6 @@ Dua bidang dikatakan berpotongan, jika kedua bidang tersebut mempunyai sebuah ga
           </p>
         </a>
       </li>
-      
-      
-      
       
       <li class="p-1 rounded-md line-clamp-2 cols-2"></li>
         <a class='text-semibold p-2 w-full h-full inline-flex items-center gap-2 bg-slate-100 hover:bg-sky-600 hover:text-white dark:bg-slate-700 dark:hover:bg-sky-600' href="https://mazguru.github.io/tutorial/quizizz/"><img class="w-4 h-4" alt="Quizizz" src="https://mazguru.github.io/cover/quizizz.png" data-sizes="auto" loading="lazy" width="20px" height="20px" style="object-fit: cover;"/>
