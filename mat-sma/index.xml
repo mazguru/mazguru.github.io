@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Matematika SMA on Sinau Matematika</title>
-    <link>https://mazguru.github.io/mat-sma/</link>
+    <link>http://demo.sinmat.my.id/mat-sma/</link>
     <description>Recent content in Matematika SMA on Sinau Matematika</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© {year} | Sinau Matematika</copyright>
-    <lastBuildDate>Tue, 24 Aug 2021 23:51:11 +0700</lastBuildDate><atom:link href="https://mazguru.github.io/mat-sma/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Aug 2021 23:51:11 +0700</lastBuildDate><atom:link href="http://demo.sinmat.my.id/mat-sma/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

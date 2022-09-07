@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://mazguru.github.io/sitemap.xml
+Sitemap: http://demo.sinmat.my.id/sitemap.xml

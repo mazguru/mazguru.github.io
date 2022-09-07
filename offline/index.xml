@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Offline on Sinau Matematika</title>
-    <link>https://mazguru.github.io/offline/</link>
+    <link>http://demo.sinmat.my.id/offline/</link>
     <description>Recent content in Offline on Sinau Matematika</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© {year} | Sinau Matematika</copyright>
-    <lastBuildDate>Mon, 17 Jan 2022 22:25:18 +0700</lastBuildDate><atom:link href="https://mazguru.github.io/offline/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Jan 2022 22:25:18 +0700</lastBuildDate><atom:link href="http://demo.sinmat.my.id/offline/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

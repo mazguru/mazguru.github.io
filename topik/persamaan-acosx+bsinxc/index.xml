@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Persamaan acosx&#43;bsinx=c on Sinau Matematika</title>
-    <link>https://mazguru.github.io/topik/persamaan-acosx&#43;bsinxc/</link>
+    <link>http://demo.sinmat.my.id/topik/persamaan-acosx&#43;bsinxc/</link>
     <description>Recent content in Persamaan acosx&#43;bsinx=c on Sinau Matematika</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© {year} | Sinau Matematika</copyright>
-    <lastBuildDate>Sun, 29 Aug 2021 13:39:51 +0700</lastBuildDate><atom:link href="https://mazguru.github.io/topik/persamaan-acosx+bsinxc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Aug 2021 13:39:51 +0700</lastBuildDate><atom:link href="http://demo.sinmat.my.id/topik/persamaan-acosx+bsinxc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Persamaan Trigonometri Bentuk Acos x &#43; Bsin x = C</title>
-      <link>https://mazguru.github.io/persamaan-trigonometri-bentuk-acos-x--bsin-x-c/</link>
+      <link>http://demo.sinmat.my.id/persamaan-trigonometri-bentuk-acos-x--bsin-x-c/</link>
       <pubDate>Sun, 29 Aug 2021 13:39:51 +0700</pubDate>
       
-      <guid>https://mazguru.github.io/persamaan-trigonometri-bentuk-acos-x--bsin-x-c/</guid>
+      <guid>http://demo.sinmat.my.id/persamaan-trigonometri-bentuk-acos-x--bsin-x-c/</guid>
       <description>Persamaan trigonometri berbentuk $a\cos x+b\sin x=c$ untuk bilangan real tak nol $a,b,c$ dapat diselesaikan dengan syarat ${{a}^{2}}+{{b}^{2}}\ge {{c}^{2}}$. Untuk mempermudah menyelesaikan bentuk persamaan $$a\cos x+b\sin x=c$$, bentuk tersebut diubah terlebih dahulu menjadi bentuk $$k\cos (x-\alpha )=c$$
 dengan $$k=\sqrt{{{a}^{2}}+{{b}^{2}}},$$ $$\tan \alpha =\frac{b}{a},$$ dan $\alpha $ harus sama kuadrannya dengan titik $\left( a,b \right)$.
 Sehingga persamaan $a\cos x+b\sin x=c$ berubah menjadi $k\cos (x-\alpha )=c$ atau $\cos (x-\alpha )=\frac{c}{k}$. Perhatikan bahwa nilai $\cos (x-\alpha )$ berada pada interval $-1\le \cos \left( x-\alpha \right)\le 1$, sehingga agar terdefinisi diperlukan syarat $-1\le \frac{c}{k}\le 1$.</description>

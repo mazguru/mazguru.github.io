@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Trigonometri Dasar on Sinau Matematika</title>
-    <link>https://mazguru.github.io/topik/trigonometri-dasar/</link>
+    <link>http://demo.sinmat.my.id/topik/trigonometri-dasar/</link>
     <description>Recent content in Trigonometri Dasar on Sinau Matematika</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© {year} | Sinau Matematika</copyright>
-    <lastBuildDate>Sun, 25 Jul 2021 14:01:25 +0700</lastBuildDate><atom:link href="https://mazguru.github.io/topik/trigonometri-dasar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jul 2021 14:01:25 +0700</lastBuildDate><atom:link href="http://demo.sinmat.my.id/topik/trigonometri-dasar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trigonometri Dasar (Materi Prasyarat Persamaan Trigonometri)</title>
-      <link>https://mazguru.github.io/trigonometri-dasar-materi-prasyarat-persamaan-trigonometri/</link>
+      <link>http://demo.sinmat.my.id/trigonometri-dasar-materi-prasyarat-persamaan-trigonometri/</link>
       <pubDate>Sun, 25 Jul 2021 14:01:25 +0700</pubDate>
       
-      <guid>https://mazguru.github.io/trigonometri-dasar-materi-prasyarat-persamaan-trigonometri/</guid>
+      <guid>http://demo.sinmat.my.id/trigonometri-dasar-materi-prasyarat-persamaan-trigonometri/</guid>
       <description>Apakah kalian tahu perbedaan aplikasi perbandingan trigonometri dan persamaan trigonometri? Dalam aplikasi perbandingan trigonometri biasanya yang ditentukan adalah jarak atau tinggi dengan besar sudut yang sudah diketahui, misalnya nilai dari sin x, cos x, dan tan x dan seterusnya yang sudah diketahui. Contohnya adalah penentuan jarak antara dua benda, tinggi tiang bendera, tinggi pohon atau tinggi menara. Sebaliknya, pada aplikasi persamaan trigonometri kalian justru diminta menentukan besar sudut x yang terdapat dalam perbandingan trigonometri.</description>
     </item>
     
