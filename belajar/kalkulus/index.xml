@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kalkulus on Sinau Matematika</title>
-    <link>http://demo.sinmat.my.id/belajar/kalkulus/</link>
+    <link>https://demo.sinmat.my.id/belajar/kalkulus/</link>
     <description>Recent content in Kalkulus on Sinau Matematika</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© {year} | Sinau Matematika</copyright>
-    <lastBuildDate>Wed, 25 Aug 2021 17:35:01 +0700</lastBuildDate><atom:link href="http://demo.sinmat.my.id/belajar/kalkulus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Aug 2021 17:35:01 +0700</lastBuildDate><atom:link href="https://demo.sinmat.my.id/belajar/kalkulus/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

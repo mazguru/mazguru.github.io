@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Persamaan on Sinau Matematika</title>
-    <link>http://demo.sinmat.my.id/topik/persamaan/</link>
+    <link>https://demo.sinmat.my.id/topik/persamaan/</link>
     <description>Recent content in Persamaan on Sinau Matematika</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© {year} | Sinau Matematika</copyright>
-    <lastBuildDate>Sun, 22 Aug 2021 15:34:03 +0700</lastBuildDate><atom:link href="http://demo.sinmat.my.id/topik/persamaan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Aug 2021 15:34:03 +0700</lastBuildDate><atom:link href="https://demo.sinmat.my.id/topik/persamaan/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Persamaan Matematika Paling Cantik</title>
-      <link>http://demo.sinmat.my.id/persamaan-paling-cantik/</link>
+      <link>https://demo.sinmat.my.id/persamaan-paling-cantik/</link>
       <pubDate>Sun, 22 Aug 2021 15:34:03 +0700</pubDate>
       
-      <guid>http://demo.sinmat.my.id/persamaan-paling-cantik/</guid>
+      <guid>https://demo.sinmat.my.id/persamaan-paling-cantik/</guid>
       <description>Banyak Matematikawan yang beranggapan bahwa persamaan matematika yang paling cantik yang permah ada (the Most Beautiful Equation ever) adalah $${{e}^{i\pi }}+1=0$$
 dengan
 $e$ adalah Euler’s Number atau bilangan Euler, basis dari Natural Logarithms, $i$ adalah Bilangan imajiner, yang memenuhi $i^2=1$ dan $\pi$ adalah pi, Perbandingan keliling lingkaran dengan diameternya.

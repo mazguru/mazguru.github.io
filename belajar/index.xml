@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Belajar on Sinau Matematika</title>
-    <link>http://demo.sinmat.my.id/belajar/</link>
+    <link>https://demo.sinmat.my.id/belajar/</link>
     <description>Recent content in Belajar on Sinau Matematika</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© {year} | Sinau Matematika</copyright>
-    <lastBuildDate>Tue, 24 Aug 2021 23:51:11 +0700</lastBuildDate><atom:link href="http://demo.sinmat.my.id/belajar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Aug 2021 23:51:11 +0700</lastBuildDate><atom:link href="https://demo.sinmat.my.id/belajar/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

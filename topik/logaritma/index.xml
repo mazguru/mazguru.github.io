@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>logaritma on Sinau Matematika</title>
-    <link>http://demo.sinmat.my.id/topik/logaritma/</link>
+    <link>https://demo.sinmat.my.id/topik/logaritma/</link>
     <description>Recent content in logaritma on Sinau Matematika</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© {year} | Sinau Matematika</copyright>
-    <lastBuildDate>Tue, 16 Nov 2021 18:55:58 +0700</lastBuildDate><atom:link href="http://demo.sinmat.my.id/topik/logaritma/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Nov 2021 18:55:58 +0700</lastBuildDate><atom:link href="https://demo.sinmat.my.id/topik/logaritma/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Persamaan Logaritma Lanjut dan Contohnya</title>
-      <link>http://demo.sinmat.my.id/persamaan-logaritma-lanjut-dan-contohnya/</link>
+      <link>https://demo.sinmat.my.id/persamaan-logaritma-lanjut-dan-contohnya/</link>
       <pubDate>Tue, 16 Nov 2021 18:55:58 +0700</pubDate>
       
-      <guid>http://demo.sinmat.my.id/persamaan-logaritma-lanjut-dan-contohnya/</guid>
+      <guid>https://demo.sinmat.my.id/persamaan-logaritma-lanjut-dan-contohnya/</guid>
       <description>Setelah sebelumnya belajar persamaan logaritma sederhana, kita lanjutkan pembahasantentang persamaan logaritma lanjut. Beberapabentuk yang akan kita bahas pada artikel ini.
 Untuk $ a, b \in R , a &amp;gt; 0 , b &amp;gt; 0 , $ dan $ a \neq 1 , $ berlaku sifat-sifat persamaan logaritma berikut :
 $ {}^{h(x)} \log f(x) = {}^{h(x)} \log g(x) , $ maka $ f(x) = g(x) $
@@ -21,30 +21,30 @@ dengan syarat : $ f(x) &amp;gt; 0, g(x) &amp;gt; 0 , h(x) &amp;gt; 0, $ dan $ h(
     
     <item>
       <title>Persamaan Logaritma Sederhana dan Contohnya</title>
-      <link>http://demo.sinmat.my.id/persamaan-logaritma-sederhana-dan-contohnya/</link>
+      <link>https://demo.sinmat.my.id/persamaan-logaritma-sederhana-dan-contohnya/</link>
       <pubDate>Tue, 16 Nov 2021 18:55:53 +0700</pubDate>
       
-      <guid>http://demo.sinmat.my.id/persamaan-logaritma-sederhana-dan-contohnya/</guid>
+      <guid>https://demo.sinmat.my.id/persamaan-logaritma-sederhana-dan-contohnya/</guid>
       <description>Persamaan Logaritma merupakan persamaan yang melibatkan sifat-sifat logaritma yang dihubungkan dengan tanda sama dengan. Untuk memudahkan dalam mempelajari persamaan logaritma, sebaiknya kita kuasai dulu sifat-sifat logaritma, karena pasti akan melibatkan sifat-sifat logaritma setiap kali menyelesaikan bentuk persamaan logaritmanya.
 Persamaan logaritma adalah persamaan yang numerusnya mengandung variabel dan tidak menutup kemungkinan bilangan pokok atau basisnya juga mengandung variabel. Satu hal penting yang harus selalu diingat adalah semua akar-akar dari penyelesaian persamaan logaritma harus memenuhi semua syarat logaritma yang ada, ini artinya belum tentu semua akar-akar yang kita peroleh adalah sebagai solusi dari persamaannya.</description>
     </item>
     
     <item>
       <title>Fungsi Logaritma</title>
-      <link>http://demo.sinmat.my.id/fungsi-logaritma/</link>
+      <link>https://demo.sinmat.my.id/fungsi-logaritma/</link>
       <pubDate>Tue, 16 Nov 2021 18:54:36 +0700</pubDate>
       
-      <guid>http://demo.sinmat.my.id/fungsi-logaritma/</guid>
+      <guid>https://demo.sinmat.my.id/fungsi-logaritma/</guid>
       <description>Fungsi logaritma adalah suatu fungsi yang memuat bentuk logaritma didalamnya. Sebelumnya kita telah belajar tentang fungsi eksponen yaitu fungsi yang berkorespondensi satu-satu, sehingga fungsi eksponen mempunyai invers. Invers dari fungsi eksponen inilah yang dinamakan fungsi logaritma.
 Dari fungsi $f : x \rightarrow a^x$ yang mempunyai domain bilangan real dan range bilangan real positif. Fungsi tersebut bijektif dari $R$ ke $R^+$ sehingga mempunyai invers $f^{-1} : R^+\rightarrow R$ yaitu setiap $x\in R$ mempunyai peta tunggal $y\in R^+$ dan sebaliknya $y\in R^+$ mempunyai peta tunggal $x\in R$.</description>
     </item>
     
     <item>
       <title>Sifat-sifat Operasi Logaritma</title>
-      <link>http://demo.sinmat.my.id/sifat-sifat-operasi-logaritma/</link>
+      <link>https://demo.sinmat.my.id/sifat-sifat-operasi-logaritma/</link>
       <pubDate>Tue, 16 Nov 2021 18:54:09 +0700</pubDate>
       
-      <guid>http://demo.sinmat.my.id/sifat-sifat-operasi-logaritma/</guid>
+      <guid>https://demo.sinmat.my.id/sifat-sifat-operasi-logaritma/</guid>
       <description>Ada 7 sifat pada logaritma ini yang akan membantu kamu dalam memecahkan masalah yang berkaitan dengan logaritma yaitu :
 Penjumlahan dan Pengurangan Sifat 1 $$^a\log x &amp;#43; ^a\log y = ^a\log xy$$Contoh :
 Sederhanakanlah !
@@ -54,10 +54,10 @@ $^2\log 4 + ^2\log 8 = ^2\log 4 . 8 = ^2\log 32 = 5$ $^3\log \frac{1}{9} + ^3\lo
     
     <item>
       <title>Pengertian Logaritma</title>
-      <link>http://demo.sinmat.my.id/pengertian-logaritma/</link>
+      <link>https://demo.sinmat.my.id/pengertian-logaritma/</link>
       <pubDate>Tue, 16 Nov 2021 18:50:18 +0700</pubDate>
       
-      <guid>http://demo.sinmat.my.id/pengertian-logaritma/</guid>
+      <guid>https://demo.sinmat.my.id/pengertian-logaritma/</guid>
       <description>Setelah kemaren belajar tentang fungsi eksponen kali ini kita akan melanjutkan materi tentang logaritma. Apa itu logaritma? Perhatikan masalah berikut!
 Waktu paruh sebuah unsur radioaktif adalah 2 hari. Berapa lama diperlukan oleh 64 g unsur ini untuk meluruh menjadi tinggal 2 g?
 Dari permasalahan diatas dapat diselesaikan seperti berikut

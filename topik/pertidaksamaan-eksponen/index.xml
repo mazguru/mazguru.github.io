@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pertidaksamaan Eksponen on Sinau Matematika</title>
-    <link>http://demo.sinmat.my.id/topik/pertidaksamaan-eksponen/</link>
+    <link>https://demo.sinmat.my.id/topik/pertidaksamaan-eksponen/</link>
     <description>Recent content in Pertidaksamaan Eksponen on Sinau Matematika</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© {year} | Sinau Matematika</copyright>
-    <lastBuildDate>Mon, 06 Sep 2021 16:53:51 +0700</lastBuildDate><atom:link href="http://demo.sinmat.my.id/topik/pertidaksamaan-eksponen/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Sep 2021 16:53:51 +0700</lastBuildDate><atom:link href="https://demo.sinmat.my.id/topik/pertidaksamaan-eksponen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pertidaksamaan Eksponen Lanjut</title>
-      <link>http://demo.sinmat.my.id/pertidaksamaan-eksponen-lanjut/</link>
+      <link>https://demo.sinmat.my.id/pertidaksamaan-eksponen-lanjut/</link>
       <pubDate>Mon, 06 Sep 2021 16:53:51 +0700</pubDate>
       
-      <guid>http://demo.sinmat.my.id/pertidaksamaan-eksponen-lanjut/</guid>
+      <guid>https://demo.sinmat.my.id/pertidaksamaan-eksponen-lanjut/</guid>
       <description>Pertidaksamaan eksponen lanjut Pertidaksamaan eksponen lanjut maksudnya adalah pertidaksamaan eksponen yang bentuknya selain bentuk pertidaksamaan eksponen sederhana. Misalkan bentuk $A{{\left( {{a}^{f(x)}} \right)}^{m}}+B\left( {{a}^{f(x)}} \right)+C\le 0$. Untuk menyelesaikan bentuk ini, biasanya diarahkan ke suatu persamaan polinomial atau persamaan kuadrat dengan memisalkan ${{a}^{f(x)}}=p$.
 Contoh Tentukan himpunan penyelesaian dari
 ${{3}^{2x}}-{{4.3}^{x+1}}+27&amp;lt;0$ ${{3}^{-2x+2}}-{{28.3}^{-x}}+3\ge 0$ Alternatif Penyelesaian ${{3}^{2x}}-{{4.3}^{x+1}}+27&amp;lt;0$
@@ -23,10 +23,10 @@ ${{p}^{2}}-12p+27&amp;lt;0 \newline (p-3)(p-9)&amp;lt;0 \newline $ Asumsi $p=3$ 
     
     <item>
       <title>Pertidaksamaan Eksponen Sederhana</title>
-      <link>http://demo.sinmat.my.id/pertidaksamaan-eksponen-sederhana/</link>
+      <link>https://demo.sinmat.my.id/pertidaksamaan-eksponen-sederhana/</link>
       <pubDate>Mon, 06 Sep 2021 16:53:34 +0700</pubDate>
       
-      <guid>http://demo.sinmat.my.id/pertidaksamaan-eksponen-sederhana/</guid>
+      <guid>https://demo.sinmat.my.id/pertidaksamaan-eksponen-sederhana/</guid>
       <description>Setelah kita mempelajari tentang persamaan eksponen, sekarang pembahasan akan dilanjutkan dengan pertidaksamaan eksponen. Pertidaksamaan pasti memuat tanda $&amp;lt;,&amp;gt;,\le ,\ge $. Untuk menyelesaikan pertidaksamaan eksponen, kita harus benar-benar memahami sifat-sifat eksponen dan persamaan eksponen. Pertidaksamaan eksponen itu sendiri ada dua bentuk, yaitu pertidaksamaan eksponen sederhana dan pertidaksamaan eksponen lanjut.
 Pertidaksamaan eksponen sederhana. Pertidaksamaan eksponen sederhana maksudnya pertidaksamaan yang ruas kanan dan ruas kiri tanda pertidaksamaan sudah berbentuk pangkat. Dari berbagai bentuk pertidaksamaan eksponen yang ada, cara penyelesaiannya mengikuti langkah-langkah:</description>
     </item>

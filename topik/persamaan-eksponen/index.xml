@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Persamaan Eksponen on Sinau Matematika</title>
-    <link>http://demo.sinmat.my.id/topik/persamaan-eksponen/</link>
+    <link>https://demo.sinmat.my.id/topik/persamaan-eksponen/</link>
     <description>Recent content in Persamaan Eksponen on Sinau Matematika</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© {year} | Sinau Matematika</copyright>
-    <lastBuildDate>Tue, 31 Aug 2021 20:07:26 +0700</lastBuildDate><atom:link href="http://demo.sinmat.my.id/topik/persamaan-eksponen/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Aug 2021 20:07:26 +0700</lastBuildDate><atom:link href="https://demo.sinmat.my.id/topik/persamaan-eksponen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Persamaan Eksponen Lanjut</title>
-      <link>http://demo.sinmat.my.id/persamaan-eksponen-lanjut/</link>
+      <link>https://demo.sinmat.my.id/persamaan-eksponen-lanjut/</link>
       <pubDate>Tue, 31 Aug 2021 20:07:26 +0700</pubDate>
       
-      <guid>http://demo.sinmat.my.id/persamaan-eksponen-lanjut/</guid>
+      <guid>https://demo.sinmat.my.id/persamaan-eksponen-lanjut/</guid>
       <description>Persamaan eksponen lanjut. Persamaan Bentuk ${{a}^{f(x)}}={{b}^{f(x)}}$ Penyelesaian persamaan berbentuk ${{a}^{f(x)}}={{b}^{f(x)}}$ mengikuti aturan berikut : Jika $${{a}^{f(x)}}={{b}^{f(x)}}$$ dimana a &amp;gt; 0 ,b &amp;gt; 0 dan a ≠ 1, b ≠ 1, maka $$f(x)=0$$Contoh
 Tentukan himpunan penyelesaian dari
 ${{6}^{{{x}^{2}}-5x+6}}={{7}^{{{x}^{2}}-5x+6}}$ ${{7}^{8}}{{.3}^{{{x}^{2}}-8}}={{3}^{2x}}{{.7}^{{{x}^{2}}-2x}}$ Alternatif Penyelesaian
@@ -30,10 +30,10 @@ Jadi himpunan penyelesaiannya adalah {-2, 4}</description>
     
     <item>
       <title>Persamaan Eksponen Sederhana</title>
-      <link>http://demo.sinmat.my.id/persamaan-eksponen-sederhana/</link>
+      <link>https://demo.sinmat.my.id/persamaan-eksponen-sederhana/</link>
       <pubDate>Tue, 31 Aug 2021 20:01:26 +0700</pubDate>
       
-      <guid>http://demo.sinmat.my.id/persamaan-eksponen-sederhana/</guid>
+      <guid>https://demo.sinmat.my.id/persamaan-eksponen-sederhana/</guid>
       <description>Setelah kita mempelajari tentang fungsi eksponen, sekarang pembahasan akan diperluas tentang persamaan eksponen dan pertidaksamaan eksponen. Persamaan eksponen adalah persamaan yang eksponennya (pangkatnya) memuat perubah x atau persamaan yang bilangan pokoknya memuat perubah x. Persamaan eksponen itu sendiri ada dua bentuk, yaitu persamaan eksponen sederhana dan persamaan eksponen lanjut.
 Persamaan eksponen sederhana maksudnya persamaan yang hanya menyamakan nilai basisnya dan langsung bisa menentukan penyelesaiannya. Dari berbagai bentuk persamaan eksponen yang ada, cara penyelesaiannya bergantung pada bentuknya.</description>
     </item>

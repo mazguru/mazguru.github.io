@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Trigonometri on Sinau Matematika</title>
-    <link>http://demo.sinmat.my.id/kategori/trigonometri/</link>
+    <link>https://demo.sinmat.my.id/kategori/trigonometri/</link>
     <description>Recent content in Trigonometri on Sinau Matematika</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© {year} | Sinau Matematika</copyright>
-    <lastBuildDate>Tue, 16 Aug 2022 20:09:25 +0700</lastBuildDate><atom:link href="http://demo.sinmat.my.id/kategori/trigonometri/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Aug 2022 20:09:25 +0700</lastBuildDate><atom:link href="https://demo.sinmat.my.id/kategori/trigonometri/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Latihan Soal Persamaan Trigonometri Bentuk Kuadrat</title>
-      <link>http://demo.sinmat.my.id/latihan-soal-persamaan-trigonometri-bentuk-kuadrat/</link>
+      <link>https://demo.sinmat.my.id/latihan-soal-persamaan-trigonometri-bentuk-kuadrat/</link>
       <pubDate>Tue, 16 Aug 2022 20:09:25 +0700</pubDate>
       
-      <guid>http://demo.sinmat.my.id/latihan-soal-persamaan-trigonometri-bentuk-kuadrat/</guid>
+      <guid>https://demo.sinmat.my.id/latihan-soal-persamaan-trigonometri-bentuk-kuadrat/</guid>
       <description>Untuk mencari penyelesaian persamaan trigonometri bentuk kuadrat, kalian harus sudah memahami tentang pemfaktoran persamaan kuadrat, penyelesaian persamaan trigonometri sederhana↝dan menguasai identitas trigonometri dengan baik. Berikut beberapa contoh soal tentang persamaan trigonometri bentuk kuadrat
 Latihan Soal Tentukan himpunan penyelesaian dari persamaan $2{{\cos }^{2}}x+\cos x-1=0$, untuk $0\le x\le 360{}^\circ $
 Alternatif Penyelesaian ✍️Dengan memisalkan $\cos x=p$ maka
@@ -21,10 +21,10 @@ $2{{\cos }^{2}}x+\cos x-1=0$ (memisalkan $\cos x=p$) $\Leftrightarrow 2{{p}^{2}}
     
     <item>
       <title>Persamaan Trigonometri Bentuk Acos x &#43; Bsin x = C</title>
-      <link>http://demo.sinmat.my.id/persamaan-trigonometri-bentuk-acos-x--bsin-x-c/</link>
+      <link>https://demo.sinmat.my.id/persamaan-trigonometri-bentuk-acos-x--bsin-x-c/</link>
       <pubDate>Sun, 29 Aug 2021 13:39:51 +0700</pubDate>
       
-      <guid>http://demo.sinmat.my.id/persamaan-trigonometri-bentuk-acos-x--bsin-x-c/</guid>
+      <guid>https://demo.sinmat.my.id/persamaan-trigonometri-bentuk-acos-x--bsin-x-c/</guid>
       <description>Persamaan trigonometri berbentuk $a\cos x+b\sin x=c$ untuk bilangan real tak nol $a,b,c$ dapat diselesaikan dengan syarat ${{a}^{2}}+{{b}^{2}}\ge {{c}^{2}}$. Untuk mempermudah menyelesaikan bentuk persamaan $$a\cos x+b\sin x=c$$, bentuk tersebut diubah terlebih dahulu menjadi bentuk $$k\cos (x-\alpha )=c$$
 dengan $$k=\sqrt{{{a}^{2}}+{{b}^{2}}},$$ $$\tan \alpha =\frac{b}{a},$$ dan $\alpha $ harus sama kuadrannya dengan titik $\left( a,b \right)$.
 Sehingga persamaan $a\cos x+b\sin x=c$ berubah menjadi $k\cos (x-\alpha )=c$ atau $\cos (x-\alpha )=\frac{c}{k}$. Perhatikan bahwa nilai $\cos (x-\alpha )$ berada pada interval $-1\le \cos \left( x-\alpha \right)\le 1$, sehingga agar terdefinisi diperlukan syarat $-1\le \frac{c}{k}\le 1$.</description>
@@ -32,29 +32,29 @@ Sehingga persamaan $a\cos x+b\sin x=c$ berubah menjadi $k\cos (x-\alpha )=c$ ata
     
     <item>
       <title>Persamaan Trigonometri Bentuk Kuadrat</title>
-      <link>http://demo.sinmat.my.id/persamaan-trigonometri-bentuk-kuadrat/</link>
+      <link>https://demo.sinmat.my.id/persamaan-trigonometri-bentuk-kuadrat/</link>
       <pubDate>Sat, 28 Aug 2021 20:09:25 +0700</pubDate>
       
-      <guid>http://demo.sinmat.my.id/persamaan-trigonometri-bentuk-kuadrat/</guid>
+      <guid>https://demo.sinmat.my.id/persamaan-trigonometri-bentuk-kuadrat/</guid>
       <description>Persamaan trigonometri terkadang ada yang berbentuk persamaan kuadrat, atau mengharuskan kita untuk mengubah bentuknya menjadi persamaan kuadrat sehingga penyelesaian bisa kita peroleh dengan menggunakan aturan dalam persamaan kuadrat. Oleh karena itu, kalian harus sudah memahami tentang pemfaktoran persamaan kuadrat dan menguasai identitas trigonometri dengan baik. Perlu diingat juga bahwa rentang untuk nilai dari $\cos x$ dan $\sin x$ adalah $$\begin{align*} &amp;amp; -1\le \sin \theta \le 1 \ &amp;amp; -1\le \cos \theta \le 1 \ \end{align*}$$ Bagaimana cara menyelesaikan persamaan kuadrat trigonometri?</description>
     </item>
     
     <item>
       <title>Pengertian Trigonometri</title>
-      <link>http://demo.sinmat.my.id/pengertian-trigonometri/</link>
+      <link>https://demo.sinmat.my.id/pengertian-trigonometri/</link>
       <pubDate>Sun, 22 Aug 2021 13:10:14 +0700</pubDate>
       
-      <guid>http://demo.sinmat.my.id/pengertian-trigonometri/</guid>
+      <guid>https://demo.sinmat.my.id/pengertian-trigonometri/</guid>
       <description>Trigonometri adalah subjek yang sangat berbeda dari kebanyakan matematika yang kita temui dalam kehidupan kita sebelumnya, dan dibutuhkan cara berpikir yang berbeda untuk memahaminya. Untuk alasan itu, banyak orang hanya ingin menyelesaikannya ketika trigonometri muncul di sekolah.
 Trigonometri (dari bahasa Yunani trigonon = &amp;ldquo;tiga sudut&amp;rdquo; dan metron = &amp;ldquo;mengukur&amp;rdquo;) adalah sebuah cabang matematika yang mempelajari hubungan yang meliputi panjang dan sudut segitiga. Bidang ini muncul di masa Helenistik pada abad ke-3 SM dari penggunaan geometri untuk mempelajari astronomi.</description>
     </item>
     
     <item>
       <title>Persamaan Trigonometri Sederhana</title>
-      <link>http://demo.sinmat.my.id/persamaan-trigonometri-sederhana/</link>
+      <link>https://demo.sinmat.my.id/persamaan-trigonometri-sederhana/</link>
       <pubDate>Wed, 04 Aug 2021 20:09:25 +0700</pubDate>
       
-      <guid>http://demo.sinmat.my.id/persamaan-trigonometri-sederhana/</guid>
+      <guid>https://demo.sinmat.my.id/persamaan-trigonometri-sederhana/</guid>
       <description>Persamaan trigonometri adalah persamaan yang memuat perbandingan trigonometri (ukuran derajat atau radian). Ketika menyelesaikan sembarang persamaan trigonometri, maka yang harus kita lakukan adalah mengubah persamaan tersebut ke dalam persamaan trigonometri sederhana. Dalam menyelesaikan persamaan trigonometri pastikan kamu telah mempelajari materi prasyaratnya yaitu trigonometri dasar↝)
 Persamaan trigonometri bentuk $\sin x=\sin \alpha $ Perhatikan grafik sinus berikut
 Gambar 4. Grafik fungsi sin x
@@ -63,10 +63,10 @@ Grafik sinus berulang-ulang naik turun, seperti huruf “S” tidur terbalik.</d
     
     <item>
       <title>Persamaan Trigonometri Bentuk cosx=a, sinx=a, tanx=a</title>
-      <link>http://demo.sinmat.my.id/persamaan-trigonometri-bentuk-cosxa-sinxa-tanxa/</link>
+      <link>https://demo.sinmat.my.id/persamaan-trigonometri-bentuk-cosxa-sinxa-tanxa/</link>
       <pubDate>Sun, 01 Aug 2021 19:21:42 +0700</pubDate>
       
-      <guid>http://demo.sinmat.my.id/persamaan-trigonometri-bentuk-cosxa-sinxa-tanxa/</guid>
+      <guid>https://demo.sinmat.my.id/persamaan-trigonometri-bentuk-cosxa-sinxa-tanxa/</guid>
       <description>Persamaan Trigonometri Bentuk sin x = a, cos x = a dan tan x = a Adakalanya akan ditemui persamaan trigonometri seperti $\sin x=\frac{1}{2}\sqrt{3}$, $2\cos x=-1$, $2\tan x=\sqrt{2}$, dan sebagainya. Bagaimana menyelesaikan bentuk persamaan tersebut? Hal ini dapat ditentukan dengan mengubah menjadi bentuk persamaan trigonometri sederhana bentuk $\sin x=\sin \alpha $, $\cos x=\cos \alpha $, atau $\tan x=\tan \alpha $. Perhatikan contoh berikut
 Contoh
 Tentukan himpunan penyelesaian dari
@@ -75,10 +75,10 @@ $\sin x=\frac{1}{2}\sqrt{3},\text{ }0\le x\le 360{}^\circ $ $2\cos 2x=\sqrt{2},\
     
     <item>
       <title>Trigonometri Dasar (Materi Prasyarat Persamaan Trigonometri)</title>
-      <link>http://demo.sinmat.my.id/trigonometri-dasar-materi-prasyarat-persamaan-trigonometri/</link>
+      <link>https://demo.sinmat.my.id/trigonometri-dasar-materi-prasyarat-persamaan-trigonometri/</link>
       <pubDate>Sun, 25 Jul 2021 14:01:25 +0700</pubDate>
       
-      <guid>http://demo.sinmat.my.id/trigonometri-dasar-materi-prasyarat-persamaan-trigonometri/</guid>
+      <guid>https://demo.sinmat.my.id/trigonometri-dasar-materi-prasyarat-persamaan-trigonometri/</guid>
       <description>Apakah kalian tahu perbedaan aplikasi perbandingan trigonometri dan persamaan trigonometri? Dalam aplikasi perbandingan trigonometri biasanya yang ditentukan adalah jarak atau tinggi dengan besar sudut yang sudah diketahui, misalnya nilai dari sin x, cos x, dan tan x dan seterusnya yang sudah diketahui. Contohnya adalah penentuan jarak antara dua benda, tinggi tiang bendera, tinggi pohon atau tinggi menara. Sebaliknya, pada aplikasi persamaan trigonometri kalian justru diminta menentukan besar sudut x yang terdapat dalam perbandingan trigonometri.</description>
     </item>
     

@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://demo.sinmat.my.id/sitemap.xml
+Sitemap: https://demo.sinmat.my.id/sitemap.xml
